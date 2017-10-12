@@ -1,25 +1,25 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 9/28/2017, 10:57:27
-             Machine name: IGMOH1380-23
+      Time of this report: 10/11/2017, 18:48:44
+             Machine name: IGM2000-24
                Machine Id: {1D015B0B-44C3-4C6D-A70A-25DDE6DA75F8}
          Operating System: Windows 10 Enterprise 64-bit (10.0, Build 15063) (15063.rs2_release.170317-1834)
                  Language: English (Regional Setting: English)
-      System Manufacturer: System manufacturer
-             System Model: System Product Name
-                     BIOS: BIOS Date: 06/20/16 17:01:00 Ver: 05.0000B
-                Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz (8 CPUs), ~3.4GHz
+      System Manufacturer: Alienware
+             System Model: Aurora-R4
+                     BIOS: BIOS Date: 11/26/13 14:42:56 Ver: 04.06.05
+                Processor: Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
                    Memory: 16384MB RAM
-      Available OS Memory: 16326MB RAM
-                Page File: 5059MB used, 13698MB available
+      Available OS Memory: 16302MB RAM
+                Page File: 5607MB used, 13127MB available
               Windows Dir: C:\Windows
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
          User DPI Setting: Using System DPI
        System DPI Setting: 96 DPI (100 percent)
           DWM DPI Scaling: Disabled
-                 Miracast: Available, with HDCP
+                 Miracast: Not Available
 Microsoft Graphics Hybrid: Not Supported
            DxDiag Version: 10.00.15063.0000 64bit Unicode
   DxDiag Previously: Crashed in system information (stage 3). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
@@ -30,7 +30,6 @@ DxDiag Notes
       Display Tab 1: No problems found.
       Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
-        Sound Tab 2: No problems found.
           Input Tab: No problems found.
 
 --------------------
@@ -47,32 +46,32 @@ DirectShow:  0/6 (retail)
 ---------------
 Display Devices
 ---------------
-          Card name: NVIDIA GeForce GTX 1070
+          Card name: NVIDIA GeForce GTX 680
        Manufacturer: NVIDIA
-          Chip type: GeForce GTX 1070
+          Chip type: GeForce GTX 680
            DAC type: Integrated RAMDAC
         Device Type: Full Device
-         Device Key: Enum\PCI\VEN_10DE&DEV_1B81&SUBSYS_61733842&REV_A1
+         Device Key: Enum\PCI\VEN_10DE&DEV_1180&SUBSYS_096910DE&REV_A1
       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
 Device Problem Code: No Problem
 Driver Problem Code: Unknown
-     Display Memory: 16243 MB
-   Dedicated Memory: 8081 MB
-      Shared Memory: 8162 MB
+     Display Memory: 10168 MB
+   Dedicated Memory: 2017 MB
+      Shared Memory: 8151 MB
        Current Mode: 1920 x 1080 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
-      Monitor Model: Alienware2310
-         Monitor Id: DEL4052
+      Monitor Model: Alienware2210
+         Monitor Id: DEL404F
         Native Mode: 1920 x 1080(p) (60.000Hz)
-        Output Type: HDMI
-        Driver Name: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll
+        Output Type: DVI
+        Driver Name: C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll
 Driver File Version: 22.21.0013.8476 (English)
      Driver Version: 22.21.13.8476
         DDI Version: 12
-     Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
+     Feature Levels: 11_0,10_1,10_0,9_3,9_2,9_1
        Driver Model: WDDM 2.2
-Graphics Preemption: Pixel
- Compute Preemption: Dispatch
+Graphics Preemption: DMA
+ Compute Preemption: DMA
            Miracast: Not Supported
 Hybrid Graphics GPU: Not Supported
      Power P-states: Not Supported
@@ -80,15 +79,15 @@ Hybrid Graphics GPU: Not Supported
    Driver Date/Size: 6/26/2017 8:00:00 PM, 893272 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: Unknown
-  Device Identifier: {D7B71E3E-58C1-11CF-EE7A-7E411BC2DB35}
+  Device Identifier: {D7B71E3E-52C0-11CF-7252-64291BC2DB35}
           Vendor ID: 0x10DE
-          Device ID: 0x1B81
-          SubSys ID: 0x61733842
+          Device ID: 0x1180
+          SubSys ID: 0x096910DE
         Revision ID: 0x00A1
- Driver Strong Name: oem42.inf:0f066de361866ac3:Section090:22.21.13.8476:pci\ven_10de&dev_1b81
-     Rank Of Driver: 00D12001
-        Video Accel: 
-        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+ Driver Strong Name: oem42.inf:0f066de3ff4d91a1:Section004:22.21.13.8476:pci\ven_10de&dev_1180&subsys_096910de
+     Rank Of Driver: 00D10001
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+        DXVA2 Modes: DXVA2_ModeMPEG2_IDCT  DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeVC1_IDCT  DXVA2_ModeWMV9_IDCT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
    Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
                      {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
                      {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
@@ -139,32 +138,32 @@ Hybrid Graphics GPU: Not Supported
     MPO Media Hints: Not Supported
         MPO Formats: Not Supported
 
-          Card name: NVIDIA GeForce GTX 1070
+          Card name: NVIDIA GeForce GTX 680
        Manufacturer: NVIDIA
-          Chip type: GeForce GTX 1070
+          Chip type: GeForce GTX 680
            DAC type: Integrated RAMDAC
         Device Type: Full Device
-         Device Key: Enum\PCI\VEN_10DE&DEV_1B81&SUBSYS_61733842&REV_A1
+         Device Key: Enum\PCI\VEN_10DE&DEV_1180&SUBSYS_096910DE&REV_A1
       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
 Device Problem Code: No Problem
 Driver Problem Code: Unknown
-     Display Memory: 16243 MB
-   Dedicated Memory: 8081 MB
-      Shared Memory: 8162 MB
+     Display Memory: 10168 MB
+   Dedicated Memory: 2017 MB
+      Shared Memory: 8151 MB
        Current Mode: 1920 x 1080 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
       Monitor Model: Alienware2210
          Monitor Id: DEL404F
         Native Mode: 1920 x 1080(p) (60.000Hz)
         Output Type: DVI
-        Driver Name: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_2386fda73b467ac8\nvldumdx.dll
+        Driver Name: C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_bac992c30d91daf9\nvldumdx.dll
 Driver File Version: 22.21.0013.8476 (English)
      Driver Version: 22.21.13.8476
         DDI Version: 12
-     Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
+     Feature Levels: 11_0,10_1,10_0,9_3,9_2,9_1
        Driver Model: WDDM 2.2
-Graphics Preemption: Pixel
- Compute Preemption: Dispatch
+Graphics Preemption: DMA
+ Compute Preemption: DMA
            Miracast: Not Supported
 Hybrid Graphics GPU: Not Supported
      Power P-states: Not Supported
@@ -172,15 +171,15 @@ Hybrid Graphics GPU: Not Supported
    Driver Date/Size: 6/26/2017 8:00:00 PM, 893272 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: Unknown
-  Device Identifier: {D7B71E3E-58C1-11CF-EE7A-7E411BC2DB35}
+  Device Identifier: {D7B71E3E-52C0-11CF-7252-64291BC2DB35}
           Vendor ID: 0x10DE
-          Device ID: 0x1B81
-          SubSys ID: 0x61733842
+          Device ID: 0x1180
+          SubSys ID: 0x096910DE
         Revision ID: 0x00A1
- Driver Strong Name: oem42.inf:0f066de361866ac3:Section090:22.21.13.8476:pci\ven_10de&dev_1b81
-     Rank Of Driver: 00D12001
-        Video Accel: 
-        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+ Driver Strong Name: oem42.inf:0f066de3ff4d91a1:Section004:22.21.13.8476:pci\ven_10de&dev_1180&subsys_096910de
+     Rank Of Driver: 00D10001
+        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
+        DXVA2 Modes: DXVA2_ModeMPEG2_IDCT  DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeVC1_IDCT  DXVA2_ModeWMV9_IDCT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
    Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
                      {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
                      {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
@@ -234,43 +233,18 @@ Hybrid Graphics GPU: Not Supported
 -------------
 Sound Devices
 -------------
-            Description: Alienware2310-0 (NVIDIA High Definition Audio)
+            Description: Realtek Digital Output (Realtek High Definition Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0083&SUBSYS_38426173&REV_1001
-        Manufacturer ID: 1
-             Product ID: 100
-                   Type: WDM
-            Driver Name: nvhda64v.sys
-         Driver Version: 1.03.0034.0027 (English)
-      Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
-          Date and Size: 5/16/2017 12:00:00 AM, 218712 bytes
-            Other Files: 
-        Driver Provider: NVIDIA Corporation
-         HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
- Static/Strm HW 3D Bufs: 0, 0
-              HW Memory: 0
-       Voice Management: No
- EAX(tm) 2.0 Listen/Src: No, No
-   I3DL2(tm) Listen/Src: No, No
-Sensaura(tm) ZoomFX(tm): No
-
-            Description: Realtek Digital Output (2- Realtek High Definition Audio)
- Default Sound Playback: No
- Default Voice Playback: No
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_104386C7&REV_1003
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_10280541&REV_1003
         Manufacturer ID: 1
              Product ID: 100
                    Type: WDM
             Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.7910 (English)
+         Driver Version: 6.00.0001.7544 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
-          Date and Size: 8/16/2016 12:00:00 AM, 5276168 bytes
+          Date and Size: 6/24/2015 12:00:00 AM, 4518136 bytes
             Other Files: 
         Driver Provider: Realtek Semiconductor Corp.
          HW Accel Level: Basic
@@ -329,50 +303,59 @@ Poll w/ Interrupt: No
 -----------
 USB Devices
 -----------
-+ USB Root Hub (USB 3.0)
-| Vendor/Product ID: 0x8086, 0xA12F
-| Matching Device ID: USB\ROOT_HUB30
-| Service: USBHUB3
-| Driver: USBHUB3.SYS, 7/28/2017 01:15:43, 554400 bytes
++ USB Root Hub
+| Vendor/Product ID: 0x8086, 0x1D26
+| Matching Device ID: USB\ROOT_HUB20
+| Service: usbhub
+| Driver: usbhub.sys, 3/18/2017 16:56:35, 511904 bytes
+| Driver: usbd.sys, 3/18/2017 16:56:35, 32160 bytes
 | 
-+-+ USB Input Device
-| | Vendor/Product ID: 0x0461, 0x4D65
-| | Location: Port_#0009.Hub_#0001
-| | Matching Device ID: USB\Class_03&SubClass_01
-| | Service: HidUsb
-| | Driver: hidusb.sys, 3/18/2017 16:56:35, 40960 bytes
-| | Driver: hidclass.sys, 3/18/2017 16:56:35, 180736 bytes
-| | Driver: hidparse.sys, 3/18/2017 16:56:35, 40960 bytes
++-+ Generic USB Hub
+| | Vendor/Product ID: 0x8087, 0x0024
+| | Location: Port_#0001.Hub_#0002
+| | Matching Device ID: USB\Class_09
+| | Service: usbhub
+| | Driver: usbhub.sys, 3/18/2017 16:56:35, 511904 bytes
+| | Driver: usbd.sys, 3/18/2017 16:56:35, 32160 bytes
 | | 
-| +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x0461, 0x4D65
-| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | Service: mouhid
-| | | Driver: mouhid.sys, 3/18/2017 16:56:35, 33280 bytes
-| | | Driver: mouclass.sys, 3/18/2017 16:56:35, 60320 bytes
-| | 
-+-+ USB Composite Device
-| | Vendor/Product ID: 0x04CA, 0x0027
-| | Location: Port_#0010.Hub_#0001
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 3/18/2017 16:56:35, 173984 bytes
-| | 
-| +-+ USB Input Device
+| +-+ USB Composite Device
 | | | Vendor/Product ID: 0x04CA, 0x0027
-| | | Location: 0000.0014.0000.010.000.000.000.000.000
+| | | Location: Port_#0001.Hub_#0005
+| | | Matching Device ID: USB\COMPOSITE
+| | | Service: usbccgp
+| | | Driver: usbccgp.sys, 3/18/2017 16:56:35, 173984 bytes
+| | | 
+| | +-+ USB Input Device
+| | | | Vendor/Product ID: 0x04CA, 0x0027
+| | | | Location: 0000.001d.0000.001.001.000.000.000.000
+| | | | Matching Device ID: USB\Class_03&SubClass_01
+| | | | Service: HidUsb
+| | | | Driver: hidusb.sys, 3/18/2017 16:56:35, 40960 bytes
+| | | | Driver: hidclass.sys, 3/18/2017 16:56:35, 180736 bytes
+| | | | Driver: hidparse.sys, 3/18/2017 16:56:35, 40960 bytes
+| | | | 
+| | | +-+ HID Keyboard Device
+| | | | | Vendor/Product ID: 0x04CA, 0x0027
+| | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | | Service: kbdhid
+| | | | | Driver: kbdhid.sys, 3/18/2017 16:56:35, 40448 bytes
+| | | | | Driver: kbdclass.sys, 3/18/2017 16:56:35, 64416 bytes
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x0461, 0x4D65
+| | | Location: Port_#0004.Hub_#0005
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 3/18/2017 16:56:35, 40960 bytes
 | | | Driver: hidclass.sys, 3/18/2017 16:56:35, 180736 bytes
 | | | Driver: hidparse.sys, 3/18/2017 16:56:35, 40960 bytes
 | | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x04CA, 0x0027
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 3/18/2017 16:56:35, 40448 bytes
-| | | | Driver: kbdclass.sys, 3/18/2017 16:56:35, 64416 bytes
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x0461, 0x4D65
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | | Service: mouhid
+| | | | Driver: mouhid.sys, 3/18/2017 16:56:35, 33280 bytes
+| | | | Driver: mouclass.sys, 3/18/2017 16:56:35, 60320 bytes
 
 ----------------
 Gameport Devices
@@ -489,15 +472,13 @@ Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.15063.0138
 Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,10.00.15063.0138
 
 WDM Streaming Capture Devices:
-Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
-,0x00000000,0,0,,
+Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 
 WDM Streaming Rendering Devices:
-,0x00000000,0,0,,
-Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
+Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.15063.0000
@@ -523,12 +504,10 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.15063.0000
 
 Audio Renderers:
-Alienware2310-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
+Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.15063.0138
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.15063.0138
-DirectSound: Realtek Digital Output (2- Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
-DirectSound: Alienware2310-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
-Realtek Digital Output (2- Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
+DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,10.00.15063.0138
 
 
 ----------------------------
@@ -615,7 +594,7 @@ Video Decoders:
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.15063.0000
 Video Encoders:
   NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 22.21.0013.8476
-  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 22.21.0013.8476
+  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 22.21.0013.8205
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.15063.0000
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.15063.0000
   Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.15063.0296
@@ -930,6 +909,63 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
+Fault bucket 133531745152, type 5
+Event Name: MoAppCrash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Microsoft.Windows.Photos_2017.35063.13610.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 2017.35063.13610.0
+P4: 59791f6e
+P5: combase.dll
+P6: 10.0.15063.296
+P7: 91412db8
+P8: 80070005
+P9: 0000000000021bd9
+P10: 
+
+
++++ WER1 +++:
+Fault bucket , type 0
+Event Name: BlueScreen
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 1000009f
+P2: 4
+P3: 12c
+P4: ffffa68d55dd9600
+P5: ffffe281b04a9910
+P6: 10_0_15063
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+
++++ WER2 +++:
+Fault bucket , type 0
+Event Name: BlueScreen
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 1000009f
+P2: 4
+P3: 12c
+P4: ffffa68d55dd9600
+P5: ffffe281b04a9910
+P6: 10_0_15063
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+
++++ WER3 +++:
 Fault bucket 120793557691, type 4
 Event Name: APPCRASH
 Response: Not available
@@ -948,7 +984,7 @@ P9:
 P10: 
 
 
-+++ WER1 +++:
++++ WER4 +++:
 Fault bucket , type 0
 Event Name: APPCRASH
 Response: Not available
@@ -967,7 +1003,7 @@ P9:
 P10: 
 
 
-+++ WER2 +++:
++++ WER5 +++:
 Fault bucket 127945445780, type 5
 Event Name: StoreAgentScanForUpdatesFailure0
 Response: Not available
@@ -979,63 +1015,6 @@ P2: 80070422
 P3: 15063
 P4: 483
 P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER3 +++:
-Fault bucket , type 0
-Event Name: StoreAgentScanForUpdatesFailure0
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: Update;
-P2: 80070422
-P3: 15063
-P4: 483
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER4 +++:
-Fault bucket 129173084369, type 5
-Event Name: AppHangB1
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: PDapp.exe
-P2: 10.0.0.49
-P3: 577f74a6
-P4: 9163
-P5: 67246080
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER5 +++:
-Fault bucket , type 0
-Event Name: AppHangB1
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: PDapp.exe
-P2: 10.0.0.49
-P3: 577f74a6
-P4: 9163
-P5: 67246080
 P6: 
 P7: 
 P8: 
@@ -1044,7 +1023,7 @@ P10:
 
 
 +++ WER6 +++:
-Fault bucket 127945445780, type 5
+Fault bucket , type 0
 Event Name: StoreAgentScanForUpdatesFailure0
 Response: Not available
 Cab Id: 0
@@ -1063,7 +1042,45 @@ P10:
 
 
 +++ WER7 +++:
+Fault bucket 129173084369, type 5
+Event Name: AppHangB1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: PDapp.exe
+P2: 10.0.0.49
+P3: 577f74a6
+P4: 9163
+P5: 67246080
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER8 +++:
 Fault bucket , type 0
+Event Name: AppHangB1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: PDapp.exe
+P2: 10.0.0.49
+P3: 577f74a6
+P4: 9163
+P5: 67246080
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER9 +++:
+Fault bucket 127945445780, type 5
 Event Name: StoreAgentScanForUpdatesFailure0
 Response: Not available
 Cab Id: 0
@@ -1074,44 +1091,6 @@ P2: 80070422
 P3: 15063
 P4: 483
 P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER8 +++:
-Fault bucket 129397237760, type 5
-Event Name: RADAR_PRE_LEAK_64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: FlashBuilder.exe
-P2: 0.0.0.0
-P3: 10.0.15063.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER9 +++:
-Fault bucket 129396464528, type 5
-Event Name: RADAR_PRE_LEAK_WOW64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: NDP452-KB2901907-x86-x64-AllOS-ENU.exe
-P2: 4.5.51209.34209
-P3: 10.0.15063.2.0.0
-P4: 
-P5: 
 P6: 
 P7: 
 P8: 
