@@ -1,0 +1,1248 @@
+﻿Log file open, 10/15/17 19:32:45
+LogInit:Display: Running engine for game: GDD2Platformer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1710523816) SRandInit(1710523817).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080835
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.15-23.32.45:799][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.15-23.32.45:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.15-23.32.45:833][  0]LogInit: Computer: IGM2350-22
+[2017.10.15-23.32.45:833][  0]LogInit: User: det2948
+[2017.10.15-23.32.45:833][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.15-23.32.45:833][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2017.10.15-23.32.45:833][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2017.10.15-23.32.45:833][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.15-23.32.45:833][  0]LogMemory: Process Physical Memory: 273.45 MB used, 273.45 MB peak
+[2017.10.15-23.32.45:833][  0]LogMemory: Process Virtual Memory: 260.78 MB used, 260.78 MB peak
+[2017.10.15-23.32.45:833][  0]LogMemory: Physical Memory: 6147.10 MB used,  10073.32 MB free, 16220.42 MB total
+[2017.10.15-23.32.45:833][  0]LogMemory: Virtual Memory: 638.49 MB used,  10073.32 MB free, 134217728.00 MB total
+[2017.10.15-23.32.45:909][  0]LogInit: Using OS detected language (en-US).
+[2017.10.15-23.32.45:909][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.15-23.32.45:911][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.15-23.32.46:728][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.15-23.32.46:759][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2017.10.15-23.32.46:759][  0]LogD3D11RHI:       3039/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.15-23.32.46:760][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.15-23.32.46:760][  0]LogD3D11RHI:       0/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.15-23.32.46:760][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.15-23.32.46:764][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.15-23.32.46:764][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.15-23.32.46:764][  0]LogWindows: EnumDisplayDevices:
+[2017.10.15-23.32.46:764][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
+[2017.10.15-23.32.46:764][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:1)
+[2017.10.15-23.32.46:764][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.15-23.32.46:764][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.15-23.32.46:764][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.15-23.32.46:764][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2017.10.15-23.32.46:764][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.10.15-23.32.46:764][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.10.15-23.32.46:764][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.15-23.32.46:782][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.15-23.32.46:792][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.15-23.32.46:842][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Intermediate/Shaders/WorkingDirectory/4608/).
+[2017.10.15-23.32.46:842][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Profiles/det2948/AppData/Local/Temp/UnrealShaderWorkingDir/91CA91B64644B625C14E29BBA9CD541C/'.
+[2017.10.15-23.32.46:842][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.15-23.32.47:735][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.15-23.32.47:775][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.15-23.32.47:817][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.15-23.32.47:858][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.15-23.32.47:899][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.15-23.32.47:939][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.15-23.32.47:979][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.15-23.32.48:019][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.15-23.32.48:053][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.15-23.32.48:091][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.15-23.32.48:132][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.15-23.32.48:171][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.15-23.32.48:210][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.15-23.32.48:250][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.15-23.32.48:290][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.15-23.32.48:368][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.15-23.32.48:368][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.15-23.32.48:399][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.15-23.32.48:478][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.15-23.32.48:502][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.15-23.32.48:541][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.15-23.32.48:581][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.15-23.32.48:620][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.15-23.32.48:660][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.15-23.32.48:660][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.15-23.32.49:083][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.15-23.32.49:162][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB D:/Profiles/det2948/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.15-23.32.49:162][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Profiles/det2948/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.15-23.32.49:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.15-23.32.49:162][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.15-23.32.49:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.15-23.32.49:162][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.15-23.32.49:176][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.15-23.32.49:188][  0]LogDerivedDataCache: Using Local data cache path D:/Profiles/det2948/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.15-23.32.49:196][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.15-23.32.49:197][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.15-23.32.49:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.15-23.32.49:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.15-23.32.49:455][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.15-23.32.49:519][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.15-23.32.49:648][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.15-23.32.49:683][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.15-23.32.49:721][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.15-23.32.49:721][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.15-23.32.49:721][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.15-23.32.50:169][  0]LogNetVersion: GDD2Platformer , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4204315376)
+[2017.10.15-23.32.50:224][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.10.15-23.32.50:278][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.036791 seconds
+[2017.10.15-23.32.50:282][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.15-23.32.50:282][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.15-23.32.50:282][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.15-23.32.50:333][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.15-23.32.52:241][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.15-23.32.52:275][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.15-23.32.52:730][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.15-23.32.53:043][  0]SourceControl: Info Source control is disabled
+[2017.10.15-23.32.53:065][  0]SourceControl: Info Source control is disabled
+[2017.10.15-23.32.53:103][  0]SourceControl: Info Source control is disabled
+[2017.10.15-23.32.53:140][  0]SourceControl: Info Source control is disabled
+[2017.10.15-23.32.53:668][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.15-23.32.54:135][  0]LogEngine: Initializing Engine...
+[2017.10.15-23.32.54:135][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.15-23.32.54:299][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.15-23.32.54:299][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.15-23.32.54:403][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.15-23.32.54:414][  0]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.15-23.32.54:435][  0]LogInit: FAudioDevice initialized.
+[2017.10.15-23.32.54:474][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB D:/Profiles/det2948/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.15-23.32.54:486][  0]LogInit: Texture streaming: Enabled
+[2017.10.15-23.32.54:576][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.15-23.32.54:749][  0]LogInit: Transaction tracking system initialized
+[2017.10.15-23.32.54:997][  0]BlueprintLog: New page: Editor Load
+[2017.10.15-23.32.55:727][  0]LocalizationService: Info Localization service is disabled
+[2017.10.15-23.32.56:297][  0]LogConsoleResponse:Display: 
+[2017.10.15-23.32.56:416][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.15-23.32.56:416][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.15-23.32.56:818][  0]LogFileCache: Scanning file cache for directory 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/' took 0.01s
+[2017.10.15-23.32.57:216][  0]SourceControl: Info Source control is disabled
+[2017.10.15-23.32.57:217][  0]Cmd: MAP LOAD FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.15-23.32.57:217][  0]LogEditorServer:Warning: Can't find file 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.10.15-23.32.57:217][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.15-23.32.57:256][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.813ms to complete.
+[2017.10.15-23.32.57:257][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.040
+[2017.10.15-23.32.57:437][  0]LogCollectionManager: Loaded 0 collections in 0.001170 seconds
+[2017.10.15-23.32.57:552][  0]LogFileCache: Scanning file cache for directory 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Collections/' took 0.01s
+[2017.10.15-23.32.57:552][  0]LogFileCache: Scanning file cache for directory 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Developers/det2948/Collections/' took 0.01s
+[2017.10.15-23.32.57:552][  0]LogFileCache: Scanning file cache for directory 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Collections/' took 0.01s
+[2017.10.15-23.32.57:552][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.15-23.32.57:560][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2329 classes and 491 folders.
+[2017.10.15-23.32.57:613][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.15-23.32.57:643][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.15-23.32.57:678][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.15-23.32.57:709][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.15-23.32.57:713][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.15-23.32.57:715][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.15-23.32.57:720][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.15-23.32.57:850][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.10.15-23.32.57:952][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.15-23.32.58:008][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.15-23.32.58:008][  0]LogLoad: (Engine Initialization) Total time: 13.64 seconds
+[2017.10.15-23.32.58:008][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.10.15-23.32.58:008][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.15-23.32.58:008][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.15-23.32.58:019][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.15-23.32.58:019][  0]LogOcInput: OculusInput pre-init called
+[2017.10.15-23.32.58:019][  0]LogHMD: Starting GearVRController plugin
+[2017.10.15-23.32.58:032][  0]LogAssetRegistry: Asset discovery search completed in 7.8308 seconds
+[2017.10.15-23.32.58:033][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.15-23.32.58:033][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.10.15-23.32.58:035][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.15-23.32.58:072][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.15-23.32.59:040][105]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.15-23.33.31:508][998]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ground_Gravel_D'
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ground_Gravel_D' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:795][998]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Ground_Gravel : Can't find file for asset. /Game/StarterContent/Textures/T_Ground_Gravel_D
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ground_Gravel_N'
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ground_Gravel_N' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:795][998]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Ground_Gravel : Can't find file for asset. /Game/StarterContent/Textures/T_Ground_Gravel_N
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:795][998]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Ground_Gravel : Can't find file for asset. /Game/StarterContent/Textures/T_MacroVariation
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Perlin_Noise_M'
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Perlin_Noise_M' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:795][998]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Ground_Gravel : Can't find file for asset. /Game/StarterContent/Textures/T_Perlin_Noise_M
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ground_Gravel_D'
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ground_Gravel_D' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ground_Gravel_N'
+[2017.10.15-23.33.31:795][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ground_Gravel_N' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:796][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.10.15-23.33.31:796][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:796][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Perlin_Noise_M'
+[2017.10.15-23.33.31:796][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Perlin_Noise_M' while loading J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/StarterContent/Materials/M_Ground_Gravel.uasset.
+[2017.10.15-23.33.31:809][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ground_Gravel_D'
+[2017.10.15-23.33.31:809][998]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Ground_Gravel_D.T_Ground_Gravel_D Referenced by MaterialExpressionTextureSample_25
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ground_Gravel_D' while loading NULL.
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Ground_Gravel_N'
+[2017.10.15-23.33.31:810][998]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Ground_Gravel_N.T_Ground_Gravel_N Referenced by MaterialExpressionTextureSample_26
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Ground_Gravel_N' while loading NULL.
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Perlin_Noise_M'
+[2017.10.15-23.33.31:810][998]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M Referenced by MaterialExpressionTextureSample_4
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Perlin_Noise_M' while loading NULL.
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.10.15-23.33.31:810][998]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_5
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.10.15-23.33.31:810][998]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_6
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.10.15-23.33.31:810][998]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.10.15-23.33.31:810][998]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_7
+[2017.10.15-23.33.31:811][998]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.10.15-23.33.31:840][998]LogMaterial: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2017.10.15-23.33.31:840][998]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Ground_Gravel.M_Ground_Gravel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.15-23.33.31:840][998]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.15-23.33.31:984][998]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.15-23.33.32:010][998]Cmd: MAP LOAD FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Levels/RotatingStairs.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.15-23.33.32:010][998]LightingResults: New page: Lighting Build
+[2017.10.15-23.33.32:043][998]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.10.15-23.33.32:043][998]LoadErrors: New page: Loading map: RotatingStairs.umap
+[2017.10.15-23.33.32:044][998]MapCheck: New page: Map Check
+[2017.10.15-23.33.32:044][998]LightingResults: New page: Lighting Build
+[2017.10.15-23.33.32:056][998]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.15-23.33.32:090][998]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.15-23.33.32:138][998]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.695ms to complete.
+[2017.10.15-23.33.32:138][998]LogFileHelpers: Loading map 'RotatingStairs' took 0.129
+[2017.10.15-23.33.35:060][328]LogEditorViewport: Clicking on Actor (LMB): RotatingPlatform_C (RotatingPlatform)
+[2017.10.15-23.33.35:660][394]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.15-23.33.38:234][664]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.10.15-23.33.55:281][541]LogTabManager:Warning: Unable to insert tab 'Document'.
+[2017.10.15-23.33.55:281][541]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'Document'
+[2017.10.15-23.33.55:297][541]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.15-23.36.44:231][627]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_RotatingPlatform_C_0' or package '/Engine/Transient'.
+[2017.10.15-23.36.44:231][627]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.10.15-23.36.44:231][627]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.10.15-23.36.44:231][627]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_RotatingPlatform_C_1' or package '/Engine/Transient'.
+[2017.10.15-23.36.44:232][627]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_RotatingPlatform_C_67' or package '/Engine/Transient'.
+[2017.10.15-23.36.44:232][627]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_RotatingPlatform_C_71' or package '/Engine/Transient'.
+[2017.10.15-23.36.44:232][627]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_RotatingPlatform_C_70' or package '/Engine/Transient'.
+[2017.10.15-23.36.48:415][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CenterPlatform)
+[2017.10.15-23.36.49:364][216]Cmd: EDIT COPY
+[2017.10.15-23.36.49:566][240]Cmd: EDIT PASTE
+[2017.10.15-23.37.15:845][341]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2017.10.15-23.37.30:457][ 27]LogEditorViewport: Clicking Background
+[2017.10.15-23.37.31:205][115]LogEditorViewport: Clicking on Actor (LMB): RotatingPlatform_C (RotatingPlatform)
+[2017.10.15-23.37.31:635][162]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.15-23.39.30:248][181]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.30:248][181]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.10.15-23.39.30:724][234]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.30:724][234]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.10.15-23.39.31:109][277]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.31:109][277]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.10.15-23.39.32:641][458]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.32:641][458]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.10.15-23.39.32:996][498]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.32:996][498]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.10.15-23.39.33:344][537]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.33:344][537]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.10.15-23.39.33:649][571]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.33:649][571]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.10.15-23.39.33:905][599]Cmd: TRANSACTION UNDO
+[2017.10.15-23.39.33:905][599]LogEditorTransaction: Undo Apply Changes to Blueprint
+[2017.10.15-23.39.49:690][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.15-23.39.49:713][430]LogSavePackage: Save=20.49ms
+[2017.10.15-23.39.49:713][430]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatformAC492D7741D73B8BA2D1308D17E813BA.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.15-23.39.49:716][430]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.15-23.39.53:775][910]LogEditorViewport: Clicking on Actor (LMB): RotatingPlatform_C (RotatingPlatform)
+[2017.10.15-23.41.15:757][903]LogEditorViewport: Clicking on Actor (LMB): RotatingPlatform_C (RotatingPlatform)
+[2017.10.15-23.41.15:834][908]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.10.15-23.43.43:149][214]LogSavePackage: Save=443.39ms
+[2017.10.15-23.43.43:149][214]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto14637DB804D9DB43E38289E921D9F5F11.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto1.umap'
+[2017.10.15-23.43.43:150][214]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto1.umap
+[2017.10.15-23.43.43:154][214]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 0.784
+[2017.10.15-23.43.43:154][214]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.784
+[2017.10.15-23.44.17:869][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.15-23.44.17:932][ 58]LogSavePackage: Save=53.36ms
+[2017.10.15-23.44.17:932][ 58]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform790930B8458C82B38475FA8D897682F6.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.15-23.44.17:934][ 58]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.15-23.45.25:619][331]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Classes/Engine/StaticMeshActor.h 
+[2017.10.15-23.45.25:791][331]LogWindows: Launch application code for C:/Program Files/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Classes/Engine/StaticMeshActor.h : 42
+[2017.10.15-23.45.25:791][331]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:794][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:795][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:796][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:797][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:798][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:804][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:805][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:805][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:821][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:831][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:838][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:845][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:845][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:845][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:845][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:853][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:854][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:855][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:856][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:857][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:858][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:864][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:864][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:864][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:876][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:881][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:890][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:897][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:897][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:897][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.45.25:898][331]LogVSAccessor:Warning: Couldn't access module table
+[2017.10.15-23.48.35:953][919]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.15-23.53.49:942][523]LogSavePackage: Save=433.08ms
+[2017.10.15-23.53.49:943][523]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto26C5FA00C4949138BB6210AAAFC758256.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto2.umap'
+[2017.10.15-23.53.49:948][523]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto2.umap
+[2017.10.15-23.53.49:954][523]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 0.740
+[2017.10.15-23.53.49:954][523]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.740
+[2017.10.15-23.53.49:959][523]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Orb/OrbBP] ([1] browsable assets)...
+[2017.10.15-23.53.49:993][523]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Orb/OrbBP.OrbBP]
+[2017.10.15-23.53.49:993][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Orb/OrbBP]
+[2017.10.15-23.53.49:993][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Orb/OrbBP" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Orb/OrbBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.15-23.53.50:165][523]LogSavePackage: Save=136.22ms
+[2017.10.15-23.53.50:166][523]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/OrbBP_Auto20B9E11B44D3942FF49AC489835688E47.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Orb/OrbBP_Auto2.uasset'
+[2017.10.15-23.53.50:168][523]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Orb/OrbBP_Auto2.uasset
+[2017.10.15-23.53.50:169][523]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.15-23.53.50:187][523]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform]
+[2017.10.15-23.53.50:187][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.15-23.53.50:297][523]LogSavePackage: Save=91.64ms
+[2017.10.15-23.53.50:297][523]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto29359111C429DDF8294CD6791B1AFB902.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto2.uasset'
+[2017.10.15-23.53.50:300][523]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto2.uasset
+[2017.10.15-23.53.50:300][523]LogFileHelpers: Auto-saving content packages took 0.343
+[2017.10.15-23.58.46:181][149]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.16-00.01.32:718][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-00.01.32:782][338]LogSavePackage: Save=53.50ms
+[2017.10.16-00.01.32:782][338]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatformE88B947549D89DEA486FC485A39F3CEF.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-00.01.32:788][338]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-00.01.36:030][721]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-00.01.36:249][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.01.36:249][721]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.16-00.01.36:249][721]LogPlayLevel: [PlayLevel] Compiling RotatingPlatform before play...
+[2017.10.16-00.01.36:576][721]LogPlayLevel: PlayLevel: Blueprint regeneration took 326 ms (1 blueprints)
+[2017.10.16-00.01.36:576][721]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 4:01:36 PM)
+[2017.10.16-00.01.36:576][721]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-00.01.36:594][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017650s)
+[2017.10.16-00.01.36:594][721]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-00.01.36:595][721]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2017.10.16-00.01.36:595][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.018924s)
+[2017.10.16-00.01.36:618][721]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-00.01.36:625][721]LogInit: FAudioDevice initialized.
+[2017.10.16-00.01.36:667][721]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-00.01.36:670][721]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-20.01.36
+[2017.10.16-00.01.36:670][721]LogWorld: Bringing up level for play took: 0.001631
+[2017.10.16-00.01.36:727][721]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.10.16-00.01.36:727][721]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs -0.1
+[2017.10.16-00.01.36:728][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.02.13:734][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.02.13:783][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.02.14:489][948]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-00.02.14:506][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.02.14:506][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-00.02.14:506][948]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 4:02:14 PM)
+[2017.10.16-00.02.14:506][948]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-00.02.14:523][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016620s)
+[2017.10.16-00.02.14:524][948]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-00.02.14:524][948]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.10.16-00.02.14:524][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.017576s)
+[2017.10.16-00.02.14:550][948]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-00.02.14:556][948]LogInit: FAudioDevice initialized.
+[2017.10.16-00.02.14:591][948]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-00.02.14:593][948]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-20.02.14
+[2017.10.16-00.02.14:593][948]LogWorld: Bringing up level for play took: 0.001595
+[2017.10.16-00.02.14:594][948]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 129
+[2017.10.16-00.02.14:594][948]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ReceiveBeginPlay
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.02.27:164][948]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 12.339
+[2017.10.16-00.02.27:165][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.02.46:511][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.02.46:560][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.03.03:991][ 20]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-00.03.04:009][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.03.04:009][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-00.03.04:009][ 20]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 4:03:04 PM)
+[2017.10.16-00.03.04:009][ 20]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-00.03.04:026][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017038s)
+[2017.10.16-00.03.04:027][ 20]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-00.03.04:027][ 20]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.10.16-00.03.04:027][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.018088s)
+[2017.10.16-00.03.04:050][ 20]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-00.03.04:055][ 20]LogInit: FAudioDevice initialized.
+[2017.10.16-00.03.04:086][ 20]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-00.03.04:089][ 20]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-20.03.04
+[2017.10.16-00.03.04:089][ 20]LogWorld: Bringing up level for play took: 0.001983
+[2017.10.16-00.03.04:090][ 20]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 129
+[2017.10.16-00.03.04:090][ 20]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ReceiveBeginPlay
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.03.09:539][ 20]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 4.716
+[2017.10.16-00.03.09:539][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.03.21:481][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.03.21:527][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.04.24:257][916]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-00.04.24:274][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.04.24:274][916]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.16-00.04.24:274][916]LogPlayLevel: [PlayLevel] Compiling RotatingPlatform before play...
+[2017.10.16-00.04.24:646][916]LogPlayLevel: PlayLevel: Blueprint regeneration took 371 ms (1 blueprints)
+[2017.10.16-00.04.24:646][916]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 4:04:24 PM)
+[2017.10.16-00.04.24:646][916]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-00.04.24:663][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016953s)
+[2017.10.16-00.04.24:664][916]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-00.04.24:664][916]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2017.10.16-00.04.24:664][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.018070s)
+[2017.10.16-00.04.24:689][916]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-00.04.24:694][916]LogInit: FAudioDevice initialized.
+[2017.10.16-00.04.24:727][916]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-00.04.24:729][916]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-20.04.24
+[2017.10.16-00.04.24:729][916]LogWorld: Bringing up level for play took: 0.001730
+[2017.10.16-00.04.24:730][916]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs -0.09
+[2017.10.16-00.04.24:730][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.04.28:848][406]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 246
+[2017.10.16-00.04.28:848][406]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:BndEvt__InteractionCollider1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.04.34:212][491]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 246
+[2017.10.16-00.04.34:212][491]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:BndEvt__InteractionCollider1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.04.36:508][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.04.36:558][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.04.50:827][ 32]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-00.04.50:845][ 32]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.04.50:845][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-00.04.50:845][ 32]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 4:04:50 PM)
+[2017.10.16-00.04.50:845][ 32]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-00.04.50:862][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016230s)
+[2017.10.16-00.04.50:862][ 32]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-00.04.50:863][ 32]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.10.16-00.04.50:863][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.017412s)
+[2017.10.16-00.04.50:887][ 32]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-00.04.50:892][ 32]LogInit: FAudioDevice initialized.
+[2017.10.16-00.04.50:926][ 32]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-00.04.50:929][ 32]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-20.04.50
+[2017.10.16-00.04.50:929][ 32]LogWorld: Bringing up level for play took: 0.001885
+[2017.10.16-00.04.50:930][ 32]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 0.111
+[2017.10.16-00.04.50:930][ 32]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.04.55:076][471]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 246
+[2017.10.16-00.04.55:076][471]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:BndEvt__InteractionCollider1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.05.00:947][790]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 246
+[2017.10.16-00.05.00:947][790]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:BndEvt__InteractionCollider1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.05.03:657][832]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 246
+[2017.10.16-00.05.03:657][832]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:BndEvt__InteractionCollider1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.05.06:231][932]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 246
+[2017.10.16-00.05.06:231][932]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:BndEvt__InteractionCollider1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.05.11:695][310]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 246
+[2017.10.16-00.05.11:695][310]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:BndEvt__InteractionCollider1_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-00.05.13:327][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.05.13:375][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-00.05.51:247][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-00.05.51:292][459]LogSavePackage: Save=41.91ms
+[2017.10.16-00.05.51:292][459]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform4F19930748A1FC511AD3568551FB1F56.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-00.05.51:296][459]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-00.06.59:379][388]LogSavePackage: Save=2357.05ms
+[2017.10.16-00.06.59:379][388]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto336BC719A421A3F661E81B9BB4B8F2D79.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto3.umap'
+[2017.10.16-00.06.59:381][388]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto3.umap
+[2017.10.16-00.06.59:388][388]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.16-00.06.59:392][388]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 2.651
+[2017.10.16-00.06.59:392][388]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.651
+[2017.10.16-00.06.59:400][388]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.16-00.06.59:437][388]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform]
+[2017.10.16-00.06.59:437][388]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.16-00.06.59:537][388]LogSavePackage: Save=69.22ms
+[2017.10.16-00.06.59:537][388]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto3DFBA4CEF41F4D07C7B037CAD8DA83CCF.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto3.uasset'
+[2017.10.16-00.06.59:538][388]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto3.uasset
+[2017.10.16-00.06.59:538][388]LogFileHelpers: Auto-saving content packages took 0.140
+[2017.10.16-00.16.44:431][563]LogEditorTransaction: Undo AddPin
+[2017.10.16-00.16.46:175][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-00.16.46:249][737]LogSavePackage: Save=54.90ms
+[2017.10.16-00.16.46:249][737]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatformEE85624542D60959D2D1BD88D64933D0.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-00.16.46:256][737]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-00.17.22:319][592]LogEditorViewport: Clicking on Actor (LMB): Stairs_C (Stairs)
+[2017.10.16-00.18.03:628][677]LogSavePackage: Save=511.21ms
+[2017.10.16-00.18.03:628][677]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto4DC0E58F14883270F57112AA460BC546E.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto4.umap'
+[2017.10.16-00.18.03:631][677]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto4.umap
+[2017.10.16-00.18.03:636][677]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 0.811
+[2017.10.16-00.18.03:637][677]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.811
+[2017.10.16-00.18.03:639][677]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.16-00.18.03:639][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.16-00.18.03:732][677]LogSavePackage: Save=87.37ms
+[2017.10.16-00.18.03:732][677]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto48156AC494D0317FF2F1DA9A9A64A4529.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto4.uasset'
+[2017.10.16-00.18.03:734][677]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto4.uasset
+[2017.10.16-00.18.03:734][677]LogFileHelpers: Auto-saving content packages took 0.096
+[2017.10.16-00.18.56:964][ 68]Cmd: TRANSACTION UNDO
+[2017.10.16-00.18.56:964][ 68]LogEditorTransaction: Undo Set actor rotation
+[2017.10.16-00.18.59:192][269]Cmd: TRANSACTION UNDO
+[2017.10.16-00.18.59:192][269]LogEditorTransaction: Undo Set actor rotation
+[2017.10.16-00.25.07:919][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-00.25.08:027][241]LogSavePackage: Save=81.61ms
+[2017.10.16-00.25.08:027][241]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform8366B40F4E39D6F175471A9ABBFAA07C.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-00.25.08:039][241]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-00.28.04:574][389]LogSavePackage: Save=456.33ms
+[2017.10.16-00.28.04:574][389]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto59E0942094FF9E468C80E15A85503F1F3.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto5.umap'
+[2017.10.16-00.28.04:576][389]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto5.umap
+[2017.10.16-00.28.04:581][389]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 0.795
+[2017.10.16-00.28.04:581][389]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.795
+[2017.10.16-00.38.07:752][632]LogSavePackage: Save=2349.58ms
+[2017.10.16-00.38.07:752][632]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto6414569AA4A0C39CD648FF9870B543D21.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto6.umap'
+[2017.10.16-00.38.07:756][632]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto6.umap
+[2017.10.16-00.38.07:766][632]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 2.648
+[2017.10.16-00.38.07:766][632]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.648
+[2017.10.16-00.38.07:774][632]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.16-00.38.07:820][632]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform]
+[2017.10.16-00.38.07:820][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.16-00.38.08:016][632]LogSavePackage: Save=160.61ms
+[2017.10.16-00.38.08:016][632]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto6E25DF208423C205223F131A0E501AB78.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto6.uasset'
+[2017.10.16-00.38.08:017][632]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto6.uasset
+[2017.10.16-00.38.08:017][632]LogFileHelpers: Auto-saving content packages took 0.245
+[2017.10.16-00.47.30:745][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-00.47.30:839][ 82]LogSavePackage: Save=73.12ms
+[2017.10.16-00.47.30:839][ 82]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform906180DB429B1354F9F8ABA859281127.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-00.47.30:854][ 82]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-00.55.35:948][ 39]LogSavePackage: Save=415.35ms
+[2017.10.16-00.55.35:948][ 39]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto7A7EC80E9474DAC6AF4CF4DBEC4C343D0.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto7.umap'
+[2017.10.16-00.55.35:950][ 39]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto7.umap
+[2017.10.16-00.55.35:954][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 0.721
+[2017.10.16-00.55.35:954][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.721
+[2017.10.16-00.55.35:956][ 39]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.16-00.55.35:981][ 39]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform]
+[2017.10.16-00.55.35:981][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.16-00.55.36:191][ 39]LogSavePackage: Save=170.29ms
+[2017.10.16-00.55.36:191][ 39]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto73C664204409911BE2A0D8F8C68BD1DF3.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto7.uasset'
+[2017.10.16-00.55.36:193][ 39]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto7.uasset
+[2017.10.16-00.55.36:193][ 39]LogFileHelpers: Auto-saving content packages took 0.238
+[2017.10.16-01.04.47:942][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-01.04.48:046][689]LogSavePackage: Save=87.59ms
+[2017.10.16-01.04.48:046][689]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform0F41E0C94E72169FD149AC9871C5012B.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-01.04.48:051][689]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-01.10.16:322][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-01.10.16:417][865]LogSavePackage: Save=75.60ms
+[2017.10.16-01.10.16:417][865]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform64F07D5844785457C9A5D89E55A97B6A.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-01.10.16:421][865]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-01.12.15:318][335]LogSavePackage: Save=394.07ms
+[2017.10.16-01.12.15:318][335]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto87D7080BF4BC6564237E80D800F599B0F.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto8.umap'
+[2017.10.16-01.12.15:319][335]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto8.umap
+[2017.10.16-01.12.15:322][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 0.664
+[2017.10.16-01.12.15:322][335]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.664
+[2017.10.16-01.12.15:325][335]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.16-01.12.15:342][335]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform]
+[2017.10.16-01.12.15:342][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.16-01.12.15:468][335]LogSavePackage: Save=121.95ms
+[2017.10.16-01.12.15:468][335]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto80811AF82487ECEF805171CBAC9B132F4.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto8.uasset'
+[2017.10.16-01.12.15:470][335]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto8.uasset
+[2017.10.16-01.12.15:470][335]LogFileHelpers: Auto-saving content packages took 0.146
+[2017.10.16-01.21.49:052][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-01.21.49:194][633]LogSavePackage: Save=125.16ms
+[2017.10.16-01.21.49:194][633]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatformED033E9945BE016197B646BAD37A8765.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-01.21.49:201][633]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-01.22.51:429][963]LogSavePackage: Save=439.53ms
+[2017.10.16-01.22.51:429][963]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto91C93FB5F427BF06D301363B2F0A9635D.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto9.umap'
+[2017.10.16-01.22.51:431][963]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto9.umap
+[2017.10.16-01.22.51:436][963]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 0.719
+[2017.10.16-01.22.51:436][963]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.719
+[2017.10.16-01.22.51:440][963]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.16-01.22.51:440][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.16-01.22.53:580][963]LogSavePackage: Save=2129.41ms
+[2017.10.16-01.22.53:600][963]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto97D2348984FCC87306BC13D98BACFC22D.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto9.uasset'
+[2017.10.16-01.22.53:603][963]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto9.uasset
+[2017.10.16-01.22.53:604][963]LogFileHelpers: Auto-saving content packages took 2.166
+[2017.10.16-01.31.30:985][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-01.31.31:139][721]LogSavePackage: Save=133.17ms
+[2017.10.16-01.31.31:139][721]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform77FCA0BB442A6F22772D6ABF6F451244.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-01.31.31:146][721]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-01.33.31:323][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-01.33.31:515][242]LogSavePackage: Save=188.89ms
+[2017.10.16-01.33.31:518][242]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatformFD4344D549C730553EA64C829A515160.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-01.33.31:528][242]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-01.33.32:781][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.16-01.33.34:022][443]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-01.33.34:039][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.33.34:039][443]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.16-01.33.34:039][443]LogPlayLevel: [PlayLevel] Compiling RotatingPlatform before play...
+[2017.10.16-01.33.34:523][443]LogPlayLevel: PlayLevel: Blueprint regeneration took 483 ms (1 blueprints)
+[2017.10.16-01.33.34:524][443]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 5:33:34 PM)
+[2017.10.16-01.33.34:524][443]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-01.33.34:542][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017851s)
+[2017.10.16-01.33.34:542][443]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-01.33.34:543][443]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.10.16-01.33.34:543][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.019145s)
+[2017.10.16-01.33.34:566][443]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-01.33.34:572][443]LogInit: FAudioDevice initialized.
+[2017.10.16-01.33.34:604][443]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-01.33.34:607][443]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-21.33.34
+[2017.10.16-01.33.34:607][443]LogWorld: Bringing up level for play took: 0.001744
+[2017.10.16-01.33.34:608][443]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 0.029
+[2017.10.16-01.33.34:608][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.34.01:465][999]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.34.01:524][999]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.34.17:083][494]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-01.34.17:101][494]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.34.17:101][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.34.17:102][494]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 5:34:17 PM)
+[2017.10.16-01.34.17:102][494]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-01.34.17:118][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016548s)
+[2017.10.16-01.34.17:119][494]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-01.34.17:119][494]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2017.10.16-01.34.17:119][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.017656s)
+[2017.10.16-01.34.17:142][494]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-01.34.17:147][494]LogInit: FAudioDevice initialized.
+[2017.10.16-01.34.17:181][494]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-01.34.17:183][494]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-21.34.17
+[2017.10.16-01.34.17:183][494]LogWorld: Bringing up level for play took: 0.001523
+[2017.10.16-01.34.17:184][494]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 0.607
+[2017.10.16-01.34.17:184][494]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.34.33:492][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.34.33:540][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.35.39:031][ 84]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-01.35.39:050][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.35.39:050][ 84]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.16-01.35.39:050][ 84]LogPlayLevel: [PlayLevel] Compiling RotatingPlatform before play...
+[2017.10.16-01.35.39:188][ 84]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (1 blueprints)
+[2017.10.16-01.35.39:188][ 84]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 5:35:39 PM)
+[2017.10.16-01.35.39:188][ 84]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-01.35.39:205][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016051s)
+[2017.10.16-01.35.39:205][ 84]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-01.35.39:205][ 84]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2017.10.16-01.35.39:206][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.017231s)
+[2017.10.16-01.35.39:233][ 84]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-01.35.39:239][ 84]LogInit: FAudioDevice initialized.
+[2017.10.16-01.35.39:274][ 84]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-01.35.39:277][ 84]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-21.35.39
+[2017.10.16-01.35.39:277][ 84]LogWorld: Bringing up level for play took: 0.001560
+[2017.10.16-01.35.39:277][ 84]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 0.704
+[2017.10.16-01.35.39:278][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.35.50:600][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.35.50:648][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.36.07:843][154]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-01.36.07:859][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.36.07:860][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.36.07:860][154]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 5:36:07 PM)
+[2017.10.16-01.36.07:860][154]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-01.36.07:876][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016458s)
+[2017.10.16-01.36.07:877][154]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-01.36.07:877][154]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.10.16-01.36.07:877][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.017499s)
+[2017.10.16-01.36.07:901][154]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-01.36.07:906][154]LogInit: FAudioDevice initialized.
+[2017.10.16-01.36.07:935][154]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-01.36.07:938][154]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-21.36.07
+[2017.10.16-01.36.07:938][154]LogWorld: Bringing up level for play took: 0.001952
+[2017.10.16-01.36.07:939][154]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs -0.633
+[2017.10.16-01.36.07:939][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.36.13:330][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.36.13:383][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.36.49:948][ 14]LogSavePackage: Save=604.76ms
+[2017.10.16-01.36.49:948][ 14]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs_Auto0987743E24751700ED6B3689AFCF83040.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto0.umap'
+[2017.10.16-01.36.49:950][ 14]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/RotatingStairs_Auto0.umap
+[2017.10.16-01.36.49:953][ 14]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/RotatingStairs' took 2.583
+[2017.10.16-01.36.49:953][ 14]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.583
+[2017.10.16-01.36.49:956][ 14]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Blueprints/RotatingPlatform] ([1] browsable assets)...
+[2017.10.16-01.36.49:996][ 14]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform]
+[2017.10.16-01.36.49:996][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/RotatingPlatform]
+[2017.10.16-01.36.50:680][ 14]LogSavePackage: Save=218.45ms
+[2017.10.16-01.36.50:680][ 14]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform_Auto0F88B9F1D4BEFCBA9D0B712B8AADC6D74.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto0.uasset'
+[2017.10.16-01.36.50:682][ 14]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/RotatingPlatform_Auto0.uasset
+[2017.10.16-01.36.50:682][ 14]LogFileHelpers: Auto-saving content packages took 0.727
+[2017.10.16-01.38.21:209][717]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-01.38.21:227][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.38.21:227][717]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.16-01.38.21:227][717]LogPlayLevel: [PlayLevel] Compiling RotatingPlatform before play...
+[2017.10.16-01.38.21:364][717]LogPlayLevel: PlayLevel: Blueprint regeneration took 137 ms (1 blueprints)
+[2017.10.16-01.38.21:364][717]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 5:38:21 PM)
+[2017.10.16-01.38.21:364][717]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-01.38.21:383][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018280s)
+[2017.10.16-01.38.21:384][717]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-01.38.21:384][717]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2017.10.16-01.38.21:384][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.019704s)
+[2017.10.16-01.38.21:411][717]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-01.38.21:417][717]LogInit: FAudioDevice initialized.
+[2017.10.16-01.38.21:451][717]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-01.38.21:454][717]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-21.38.21
+[2017.10.16-01.38.21:454][717]LogWorld: Bringing up level for play took: 0.001826
+[2017.10.16-01.38.21:455][717]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 0.889
+[2017.10.16-01.38.21:455][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.38.22:956][849]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 433
+[2017.10.16-01.38.22:956][849]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:InpActEvt_R_K2Node_InputKeyEvent_2
+	Function /Game/Game/Blueprints/RotatingPlatform.RotatingPlatform_C:ExecuteUbergraph_RotatingPlatform
+
+[2017.10.16-01.39.01:596][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.39.01:658][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.39.04:161][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.16-01.39.04:968][620]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.16-01.39.04:984][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.39.04:985][620]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.16-01.39.04:985][620]LogPlayLevel: [PlayLevel] Compiling RotatingPlatform before play...
+[2017.10.16-01.39.05:108][620]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2017.10.16-01.39.05:108][620]PIE: New page: PIE session: RotatingStairs (Oct 15, 2017, 5:39:05 PM)
+[2017.10.16-01.39.05:108][620]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_RotatingStairs
+[2017.10.16-01.39.05:122][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013852s)
+[2017.10.16-01.39.05:123][620]LogAIModule: Creating AISystem for world RotatingStairs
+[2017.10.16-01.39.05:123][620]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.10.16-01.39.05:123][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/RotatingStairs.RotatingStairs to /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs (0.014914s)
+[2017.10.16-01.39.05:150][620]LogInit: XAudio2 using 'DELL ST2320L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.16-01.39.05:155][620]LogInit: FAudioDevice initialized.
+[2017.10.16-01.39.05:187][620]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.16-01.39.05:190][620]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_RotatingStairs.RotatingStairs up for play (max tick rate 0) at 2017.10.15-21.39.05
+[2017.10.16-01.39.05:190][620]LogWorld: Bringing up level for play took: 0.001912
+[2017.10.16-01.39.05:191][620]PIE: Info Play in editor start time for /Game/Game/Levels/UEDPIE_0_RotatingStairs 0.627
+[2017.10.16-01.39.05:191][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.40.05:902][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.40.05:971][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs' with GeneratedClass '/Game/Game/Levels/RotatingStairs.RotatingStairs_C' with ClassGeneratedBy '/Game/Game/Levels/RotatingStairs.RotatingStairs:PersistentLevel.RotatingStairs'
+[2017.10.16-01.40.07:692][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/RotatingPlatform" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset" SILENT=true
+[2017.10.16-01.40.07:842][603]LogSavePackage: Save=146.35ms
+[2017.10.16-01.40.07:842][603]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingPlatform1E11AF2044A40C785E0BF1A76DE162D1.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset'
+[2017.10.16-01.40.07:848][603]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/RotatingPlatform.uasset
+[2017.10.16-01.40.09:495][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.16-01.40.09:561][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.16-01.40.16:946][ 95]LogSavePackage: Save=382.33ms
+[2017.10.16-01.40.16:946][ 95]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/RotatingStairs8121F1FD4CB26B20FB4E01837FDD09CA.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Levels/RotatingStairs.umap'
+[2017.10.16-01.40.16:957][ 95]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Levels/RotatingStairs.umap
+[2017.10.16-01.40.17:047][ 95]LogFileHelpers: Saving map 'RotatingStairs' took 0.562
+[2017.10.16-01.40.17:050][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Orb/OrbBP" FILE="J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Orb/OrbBP.uasset" SILENT=true
+[2017.10.16-01.40.17:194][ 95]LogSavePackage: Save=106.30ms
+[2017.10.16-01.40.17:194][ 95]LogSavePackage: Moving 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/OrbBP3ED94F144FD833C3B121BB937864EFD2.tmp' to 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Orb/OrbBP.uasset'
+[2017.10.16-01.40.17:200][ 95]LogSavePackage:Display: Finished SavePackage J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Game/Orb/OrbBP.uasset
+[2017.10.16-01.40.17:302][ 95]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.16-01.40.17:514][ 96]Cmd: QUIT_EDITOR
+[2017.10.16-01.40.18:341][ 96]LogExit: Preparing to exit.
+[2017.10.16-01.40.18:689][ 96]LogExit: Editor shut down
+[2017.10.16-01.40.18:696][ 96]LogExit: Transaction tracking system shut down
+[2017.10.16-01.40.18:796][ 96]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.16-01.40.18:796][ 96]LogExit: Object subsystem successfully closed.
+[2017.10.16-01.40.18:817][ 96]LogD3D11RHI: Shutdown
+[2017.10.16-01.40.18:818][ 96]LogD3D11RHI: CleanupD3DDevice
+[2017.10.16-01.40.18:905][ 96]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.10.16-01.40.18:916][ 96]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.10.16-01.40.18:916][ 96]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.10.16-01.40.18:917][ 96]LogDirectoryWatcher: A directory notification for 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Collections/' was aborted.
+[2017.10.16-01.40.18:917][ 96]LogDirectoryWatcher: A directory notification for 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/Developers/det2948/Collections/' was aborted.
+[2017.10.16-01.40.18:917][ 96]LogDirectoryWatcher: A directory notification for 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Saved/Collections/' was aborted.
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.16-01.40.18:917][ 96]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.16-01.40.18:918][ 96]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.16-01.40.19:379][ 96]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.16-01.40.19:380][ 96]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.16-01.40.19:380][ 96]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.16-01.40.19:380][ 96]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.16-01.40.19:380][ 96]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.16-01.40.19:443][ 96]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.16-01.40.19:443][ 96]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.16-01.40.19:443][ 96]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.16-01.40.19:443][ 96]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.16-01.40.19:443][ 96]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.16-01.40.19:443][ 96]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.16-01.40.19:443][ 96]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.16-01.40.19:444][ 96]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.16-01.40.19:444][ 96]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.16-01.40.19:444][ 96]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.16-01.40.19:468][ 96]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.16-01.40.19:470][ 96]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.16-01.40.19:470][ 96]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.16-01.40.19:470][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.16-01.40.19:470][ 96]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.16-01.40.19:470][ 96]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.16-01.40.19:470][ 96]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.16-01.40.19:471][ 96]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.16-01.40.19:488][ 96]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.16-01.40.19:488][ 96]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.16-01.40.19:488][ 96]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.16-01.40.19:488][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.16-01.40.19:489][ 96]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.16-01.40.19:491][ 96]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.16-01.40.19:491][ 96]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.16-01.40.19:491][ 96]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.16-01.40.19:492][ 96]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.16-01.40.19:492][ 96]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.16-01.40.19:492][ 96]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.16-01.40.19:492][ 96]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.16-01.40.19:492][ 96]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.16-01.40.19:492][ 96]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.16-01.40.19:593][ 96]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.16-01.40.19:694][ 96]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.16-01.40.19:694][ 96]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.16-01.40.19:694][ 96]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.16-01.40.19:694][ 96]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.16-01.40.19:694][ 96]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.16-01.40.19:694][ 96]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.16-01.40.19:696][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.16-01.40.19:696][ 96]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.16-01.40.19:696][ 96]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.16-01.40.19:696][ 96]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.16-01.40.19:697][ 96]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.16-01.40.19:698][ 96]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.16-01.40.19:698][ 96]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.16-01.40.19:698][ 96]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.16-01.40.19:698][ 96]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.16-01.40.19:698][ 96]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.16-01.40.19:698][ 96]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.16-01.40.19:705][ 96]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.16-01.40.19:705][ 96]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.16-01.40.19:705][ 96]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.16-01.40.19:705][ 96]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.16-01.40.19:705][ 96]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.16-01.40.19:705][ 96]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.16-01.40.20:262][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.16-01.40.20:262][ 96]LogDirectoryWatcher: A directory notification for 'J:/Classes/Game Design and Development 2/PuzzleGame/GDD2Platformer/Content/' was aborted.
+[2017.10.16-01.40.20:262][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.16-01.40.20:262][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.16-01.40.20:267][ 96]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.16-01.40.20:268][ 96]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.16-01.40.20:346][ 96]LogDerivedDataCache: Shutdown
+[2017.10.16-01.40.20:346][ 96]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.16-01.40.20:346][ 96]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.16-01.40.20:346][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.16-01.40.20:346][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.16-01.40.20:346][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.16-01.40.20:346][ 96]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.16-01.40.20:346][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.16-01.40.20:347][ 96]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.16-01.40.20:348][ 96]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.16-01.40.20:348][ 96]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.16-01.40.20:348][ 96]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.16-01.40.20:348][ 96]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA6FB1503-4891-73A4-4C3D-7EA8A9260CBC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=c6ddd888406e2851668c9ba44d459942%7C038a3251b79d4769a077fb708571c27a%7Cb1fd0c28-dc76-4b46-8c9a-e72db275e7c0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.16-01.40.20:364][ 96]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.16-01.40.20:366][ 96]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.16-01.40.20:369][ 96]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.16-01.40.20:371][ 96]LogExit: Exiting.
+[2017.10.16-01.40.20:400][ 96]Log file closed, 10/15/17 21:40:20

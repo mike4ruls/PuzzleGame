@@ -1,0 +1,17 @@
+
+Platform grid
+x: 850
+y: 850
+z: 340
+
+staircase offset
+	from lower:
+	x: 450
+	y: 450
+	z: 175
+	from upper:
+	x: 450
+	y: 450
+	z: -175
+
+Staircase rotation: 25 deg
