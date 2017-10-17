@@ -1,17 +1,17 @@
 
 Platform grid
-x: 850
-y: 850
+x: 1080
+y: 1080
 z: 340
 
 staircase offset
 	from lower:
-	x: 450
-	y: 450
+	x: 540
+	y: 540
 	z: 175
 	from upper:
-	x: 450
-	y: 450
+	x: 540
+	y: 540
 	z: -175
 
 Staircase rotation: 25 deg
