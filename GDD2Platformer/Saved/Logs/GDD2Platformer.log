@@ -1,4 +1,4 @@
-﻿Log file open, 10/23/17 18:55:06
+﻿Log file open, 10/23/17 20:37:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GDD2Platformer
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-681085475) SRandInit(-681085474).
+LogInit: Display: RandInit(-1482247197) SRandInit(-1482247197).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.184937
+LogStats: Stats thread started at 0.164839
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -106,791 +106,718 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: D:/Programs/UDK/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.23-22.55.07:525][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-22.55.07:525][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.23-22.55.07:581][  0]LogInit: Computer: IGM2000-26
-[2017.10.23-22.55.07:581][  0]LogInit: User: pjd3949
-[2017.10.23-22.55.07:581][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.23-22.55.07:581][  0]LogInit: High frequency timer resolution =3.515625 MHz
-[2017.10.23-22.55.07:582][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.23-22.55.07:582][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.23-22.55.07:582][  0]LogMemory: Process Physical Memory: 278.64 MB used, 278.64 MB peak
-[2017.10.23-22.55.07:582][  0]LogMemory: Process Virtual Memory: 286.30 MB used, 286.30 MB peak
-[2017.10.23-22.55.07:582][  0]LogMemory: Physical Memory: 4683.21 MB used,  11618.95 MB free, 16302.15 MB total
-[2017.10.23-22.55.07:582][  0]LogMemory: Virtual Memory: 681.07 MB used,  11618.95 MB free, 134217728.00 MB total
-[2017.10.23-22.55.07:716][  0]LogInit: Using OS detected language (en-US).
-[2017.10.23-22.55.07:716][  0]LogInit: Using OS detected locale (en-US).
-[2017.10.23-22.55.07:719][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.10.23-22.55.08:390][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.23-22.55.08:449][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
-[2017.10.23-22.55.08:449][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.10.23-22.55.08:452][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.23-22.55.08:452][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.23-22.55.08:452][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.23-22.55.08:457][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.23-22.55.08:457][  0]LogD3D11RHI:     GPU DeviceId: 0x1180 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.23-22.55.08:457][  0]LogWindows: EnumDisplayDevices:
-[2017.10.23-22.55.08:457][  0]LogWindows:    0. 'NVIDIA GeForce GTX 680' (P:1 D:1)
-[2017.10.23-22.55.08:457][  0]LogWindows:    1. 'NVIDIA GeForce GTX 680' (P:0 D:1)
-[2017.10.23-22.55.08:457][  0]LogWindows:    2. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2017.10.23-22.55.08:458][  0]LogWindows:    3. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2017.10.23-22.55.08:458][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.23-22.55.08:458][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680
-[2017.10.23-22.55.08:458][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
-[2017.10.23-22.55.08:458][  0]LogD3D11RHI:      Driver Date: 6-27-2017
-[2017.10.23-22.55.08:458][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.23-22.55.08:480][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.23-22.55.08:497][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.10.23-22.55.08:499][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Intermediate/Shaders/WorkingDirectory/3200/).
-[2017.10.23-22.55.08:499][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Profiles/pjd3949/AppData/Local/Temp/UnrealShaderWorkingDir/B5D4F87143B4D169A1E1A6844E769D43/'.
-[2017.10.23-22.55.08:499][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.23-22.55.09:424][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.23-22.55.09:472][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.23-22.55.09:537][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.23-22.55.09:626][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.23-22.55.09:686][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.23-22.55.09:733][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.23-22.55.09:781][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.23-22.55.09:828][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.23-22.55.09:882][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.23-22.55.09:929][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.23-22.55.09:975][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.23-22.55.10:025][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.23-22.55.10:075][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.23-22.55.10:121][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.23-22.55.10:167][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.23-22.55.10:264][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.23-22.55.10:264][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.23-22.55.10:303][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.23-22.55.10:424][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.23-22.55.10:469][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.23-22.55.10:533][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.23-22.55.10:625][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.23-22.55.10:690][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.23-22.55.10:737][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.23-22.55.10:737][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.23-22.55.11:310][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.23-22.55.11:471][  0]LogDerivedDataCache: Loaded boot cache 0.16s 93MB D:/Profiles/pjd3949/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.23-22.55.11:471][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Profiles/pjd3949/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.23-22.55.11:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.23-22.55.11:472][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.23-22.55.11:473][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.23-22.55.11:473][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.23-22.55.11:497][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.23-22.55.11:509][  0]LogDerivedDataCache: Using Local data cache path D:/Profiles/pjd3949/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.23-22.55.11:540][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.23-22.55.11:540][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.23-22.55.11:542][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-22.55.11:542][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-22.55.11:910][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
-[2017.10.23-22.55.12:066][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-22.55.12:225][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.23-22.55.12:492][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.23-22.55.12:526][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.23-22.55.12:526][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.23-22.55.12:526][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.23-22.55.12:526][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.23-22.55.12:526][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.23-22.55.12:874][  0]LogNetVersion: GDD2Platformer , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 19982841)
-[2017.10.23-22.55.13:513][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.495074 seconds
-[2017.10.23-22.55.13:518][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.23-22.55.13:518][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.10.23-22.55.13:518][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.23-22.55.13:567][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.23-22.55.15:945][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.23-22.55.16:026][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.23-22.55.16:028][  0]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.16:752][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.23-22.55.17:114][  0]SourceControl: Source control is disabled
-[2017.10.23-22.55.17:114][  0]SourceControl: Source control is disabled
-[2017.10.23-22.55.17:196][  0]SourceControl: Source control is disabled
-[2017.10.23-22.55.17:239][  0]SourceControl: Source control is disabled
-[2017.10.23-22.55.17:842][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.23-22.55.18:038][  0]LogOcInput: OculusInput pre-init called
-[2017.10.23-22.55.18:258][  0]LogEngine: Initializing Engine...
-[2017.10.23-22.55.18:260][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.23-22.55.18:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.23-22.55.18:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.23-22.55.18:636][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.23-22.55.18:644][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-22.55.18:677][  0]LogInit: FAudioDevice initialized.
-[2017.10.23-22.55.18:777][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB D:/Profiles/pjd3949/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.23-22.55.18:819][  0]LogInit: Texture streaming: Enabled
-[2017.10.23-22.55.18:930][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.23-22.55.19:111][  0]LogInit: Transaction tracking system initialized
-[2017.10.23-22.55.19:393][  0]BlueprintLog: New page: Editor Load
-[2017.10.23-22.55.20:242][  0]LocalizationService: Localization service is disabled
-[2017.10.23-22.55.21:087][  0]LogConsoleResponse: Display: 
-[2017.10.23-22.55.21:275][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.23-22.55.21:275][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.23-22.55.21:275][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.23-22.55.21:400][  0]LogFileCache: Scanning file cache for directory 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/' took 0.06s
-[2017.10.23-22.55.22:131][  0]SourceControl: Source control is disabled
-[2017.10.23-22.55.22:131][  0]Cmd: MAP LOAD FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-22.55.22:132][  0]LogEditorServer: Warning: Can't find file 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2017.10.23-22.55.22:135][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-22.55.22:179][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.522ms to complete.
-[2017.10.23-22.55.22:179][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.049
-[2017.10.23-22.55.22:570][  0]LogCollectionManager: Loaded 0 collections in 0.003281 seconds
-[2017.10.23-22.55.22:716][  0]LogFileCache: Scanning file cache for directory 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Collections/' took 0.01s
-[2017.10.23-22.55.22:716][  0]LogFileCache: Scanning file cache for directory 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Developers/pjd3949/Collections/' took 0.01s
-[2017.10.23-22.55.22:716][  0]LogFileCache: Scanning file cache for directory 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Collections/' took 0.01s
-[2017.10.23-22.55.22:716][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.23-22.55.22:737][  0]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2386 classes and 500 folders.
-[2017.10.23-22.55.22:812][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.10.23-22.55.22:875][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.10.23-22.55.22:920][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.10.23-22.55.23:009][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.23-22.55.23:012][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.23-22.55.23:044][  0]LogSlate: Took 0.017681 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.23-22.55.23:249][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.10.23-22.55.23:507][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
-[2017.10.23-22.55.23:507][  0]LogLoad: (Engine Initialization) Total time: 18.88 seconds
-[2017.10.23-22.55.23:507][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.23-22.55.23:508][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.23-22.55.23:508][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.23-22.55.23:519][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.23-22.55.23:552][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.23-22.55.23:581][  0]LogSlate: Took 0.006221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-22.55.23:598][  1]LogFileCache: Retrieving MD5 hashes for directory 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/' took 0.07s
-[2017.10.23-22.55.23:614][  1]LogAssetRegistry: Asset discovery search completed in 11.7309 seconds
-[2017.10.23-22.55.23:615][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.23-22.55.23:615][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2017.10.23-22.55.23:615][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.23:616][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/', and we were unable to create a new request.
-[2017.10.23-22.55.23:616][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.23:616][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Developers/pjd3949/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.23:616][  1]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.23:679][  2]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.23:680][  2]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Collections/', and we were unable to create a new request.
-[2017.10.23-22.55.23:680][  2]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Developers/pjd3949/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.23:680][  2]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Developers/pjd3949/Collections/', and we were unable to create a new request.
-[2017.10.23-22.55.23:680][  2]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.10.23-22.55.23:681][  2]LogDirectoryWatcher: A directory notification failed for 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Collections/', and we were unable to create a new request.
-[2017.10.23-22.55.39:221][667]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-22.55.40:034][667]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.23-22.55.40:948][667]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Lake'
-[2017.10.23-22.55.40:949][667]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Lake' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/PlateLevel.umap.
-[2017.10.23-22.55.40:949][667]LoadErrors: Error: /Game/Game/Levels/PlateLevel : Can't find file for asset. /Game/StarterContent/Materials/M_Water_Lake
-[2017.10.23-22.55.40:952][667]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Lake'
-[2017.10.23-22.55.40:952][667]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Lake' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/PlateLevel.umap.
-[2017.10.23-22.55.40:975][667]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Lake'
-[2017.10.23-22.55.40:975][667]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Lake' while loading NULL.
-[2017.10.23-22.55.40:975][667]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Lake'
-[2017.10.23-22.55.40:976][667]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Lake' while loading NULL.
-[2017.10.23-22.55.40:982][667]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Lake'
-[2017.10.23-22.55.40:982][667]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake Referenced by K2Node_CallFunction_29
-[2017.10.23-22.55.40:983][667]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Lake' while loading NULL.
-[2017.10.23-22.55.41:164][667]LogMaterial: Missing cached shader map for material VolcanoeMat, compiling. 
-[2017.10.23-22.55.41:200][667]LogMaterial: Missing cached shader map for material StarterMat, compiling. 
-[2017.10.23-22.55.41:215][667]LogMaterial: Missing cached shader map for material NatureMat, compiling. 
-[2017.10.23-22.55.41:232][667]LogMaterial: Missing cached shader map for material DesertMat, compiling. 
-[2017.10.23-22.55.41:417][667]LogMaterial: Missing cached shader map for material RedMat, compiling. 
-[2017.10.23-22.55.41:433][667]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
-[2017.10.23-22.55.41:435][667]LogMaterial: Warning: Failed to compile Material /Game/Game/Materials/M_Water_Ocean.M_Water_Ocean for platform PCD3D_SM5, Default Material will be used in game.
-[2017.10.23-22.55.41:435][667]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.10.23-22.55.41:437][667]LogMaterial: Missing cached shader map for material GreenMat, compiling. 
-[2017.10.23-22.55.41:601][667]LogAIModule: Creating AISystem for world PlateLevel
-[2017.10.23-22.55.41:788][667]Cmd: MAP LOAD FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/PlateLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-22.55.41:789][667]LightingResults: New page: Lighting Build
-[2017.10.23-22.55.41:873][667]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0018 seconds. Added 5 classes and 0 folders.
-[2017.10.23-22.55.41:874][667]LoadErrors: New page: Loading map: PlateLevel.umap
-[2017.10.23-22.55.41:874][667]MapCheck: New page: Map Check
-[2017.10.23-22.55.41:874][667]LightingResults: New page: Lighting Build
-[2017.10.23-22.55.42:033][667]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-22.55.42:125][667]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-22.55.42:209][667]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.276ms to complete.
-[2017.10.23-22.55.42:209][667]LogFileHelpers: Loading map 'PlateLevel' took 0.423
-[2017.10.23-22.56.16:987][242]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.56.16:987][242]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap.
-[2017.10.23-22.56.16:987][242]LoadErrors: Error: /Game/Game/Levels/HUBWorld : Can't find file for asset. /Game/StarterContent/Materials/M_Ground_Gravel
-[2017.10.23-22.56.17:037][242]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.56.17:037][242]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap.
-[2017.10.23-22.56.17:068][242]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.56.17:069][242]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.56.17:069][242]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.56.17:069][242]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.56.17:104][242]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.56.17:104][242]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Ground_Gravel.M_Ground_Gravel Referenced by Floor_16
-[2017.10.23-22.56.17:105][242]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.56.17:275][242]LogTexture: Display: Building textures: FirstPersonCrosshair (AutoDXT, 16X16)
-[2017.10.23-22.56.17:415][242]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
-[2017.10.23-22.56.17:416][242]LogMaterial: Warning: Failed to compile Material /Game/Game/Materials/M_CobbleStone_Smooth.M_CobbleStone_Smooth for platform PCD3D_SM5, Default Material will be used in game.
-[2017.10.23-22.56.17:417][242]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
-[2017.10.23-22.56.17:417][242]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.10.23-22.56.17:442][242]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
-[2017.10.23-22.56.17:443][242]LogMaterial: Warning: Failed to compile Material /Game/Game/Materials/M_Metal_Rust.M_Metal_Rust for platform PCD3D_SM5, Default Material will be used in game.
-[2017.10.23-22.56.17:443][242]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.10.23-22.56.17:445][242]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
-[2017.10.23-22.56.17:446][242]LogMaterial: Warning: Failed to compile Material /Game/Game/Materials/M_Water_Lake.M_Water_Lake for platform PCD3D_SM5, Default Material will be used in game.
-[2017.10.23-22.56.17:446][242]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.10.23-22.56.17:525][242]LogAIModule: Creating AISystem for world HUBWorld
-[2017.10.23-22.56.17:584][242]Cmd: MAP LOAD FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-22.56.17:584][242]LightingResults: New page: Lighting Build
-[2017.10.23-22.56.17:585][242]LoadErrors: New page: Loading map: HUBWorld.umap
-[2017.10.23-22.56.17:588][242]MapCheck: New page: Map Check
-[2017.10.23-22.56.17:588][242]LightingResults: New page: Lighting Build
-[2017.10.23-22.56.17:647][242]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-22.56.17:731][242]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-22.56.17:974][242]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 242.376ms to complete.
-[2017.10.23-22.56.17:976][242]LogFileHelpers: Loading map 'HUBWorld' took 0.394
-[2017.10.23-22.57.09:930][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-22.57.10:057][ 59]LogSavePackage: Save=86.14ms
-[2017.10.23-22.57.10:057][ 59]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle4C7F1DFB4F9983FD3522A988139E8DE7.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-22.57.10:115][ 59]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-22.57.10:115][ 59]LogFileHelpers: Saving map 'FirePuzzle' took 0.391
-[2017.10.23-22.57.10:125][ 59]Cmd: MAP LOAD FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-22.57.10:126][ 59]LightingResults: New page: Lighting Build
-[2017.10.23-22.57.10:127][ 59]LoadErrors: New page: Loading map: FirePuzzle.umap
-[2017.10.23-22.57.10:128][ 59]MapCheck: New page: Map Check
-[2017.10.23-22.57.10:128][ 59]LightingResults: New page: Lighting Build
-[2017.10.23-22.57.10:147][ 59]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-22.57.10:148][ 59]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-22.57.10:224][ 59]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-22.57.10:353][ 59]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.767ms to complete.
-[2017.10.23-22.57.10:354][ 59]LogFileHelpers: Loading map 'FirePuzzle' took 0.230
-[2017.10.23-22.58.13:061][853]LightingResults: New page: Lighting Build
-[2017.10.23-22.58.13:061][853]MapCheck: New page: Map Check
-[2017.10.23-22.58.13:061][853]LightingResults: New page: Lighting Build
-[2017.10.23-22.58.13:073][853]LogAIModule: Creating AISystem for world Untitled
-[2017.10.23-22.58.13:083][853]LoadErrors: New page: New Map
-[2017.10.23-22.58.13:101][853]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-22.58.19:298][279]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.19:298][279]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap.
-[2017.10.23-22.58.19:298][279]LoadErrors: Error: /Game/Game/Levels/HUBWorld : Can't find file for asset. /Game/StarterContent/Materials/M_Ground_Gravel
-[2017.10.23-22.58.19:310][279]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.19:310][279]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap.
-[2017.10.23-22.58.19:326][279]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.19:326][279]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.19:326][279]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.19:326][279]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.19:345][279]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.19:346][279]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Ground_Gravel.M_Ground_Gravel Referenced by Floor_16
-[2017.10.23-22.58.19:346][279]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.19:557][279]LogAIModule: Creating AISystem for world HUBWorld
-[2017.10.23-22.58.27:430][163]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-22.58.29:260][334]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.29:260][334]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/Maze.umap.
-[2017.10.23-22.58.29:260][334]LoadErrors: Error: /Game/Game/Levels/Maze : Can't find file for asset. /Game/StarterContent/Materials/M_Ground_Gravel
-[2017.10.23-22.58.29:266][334]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.29:267][334]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/Maze.umap.
-[2017.10.23-22.58.29:279][334]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.29:279][334]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.29:279][334]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.29:279][334]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.29:356][334]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.29:356][334]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.29:915][334]LogTexture: Display: Building textures: Vines (BGRA8, 150X150)
-[2017.10.23-22.58.29:915][334]LogTexture: Display: Building textures: fire_transparent (AutoDXT, 3840X128)
-[2017.10.23-22.58.29:915][334]LogTexture: Display: Building textures: stone_wall (AutoDXT, 1024X1024)
-[2017.10.23-22.58.29:915][334]LogMaterial: Missing cached shader map for material Torch, compiling. 
-[2017.10.23-22.58.30:305][334]LogMaterial: Missing cached shader map for material StoneWallMaterial, compiling. 
-[2017.10.23-22.58.30:381][334]LogMaterial: Missing cached shader map for material VineMaterial, compiling. 
-[2017.10.23-22.58.30:398][334]LogAIModule: Creating AISystem for world Maze
-[2017.10.23-22.58.32:794][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-22.58.35:213][334]LogSavePackage: Save=2351.37ms
-[2017.10.23-22.58.35:213][334]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzleD3731035400CFF7FFCB37192AFEA8F55.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-22.58.35:251][334]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-22.58.35:286][334]LogFileHelpers: Saving map 'FirePuzzle' took 2.734
-[2017.10.23-22.58.35:287][334]Cmd: MAP LOAD FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/Maze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-22.58.35:287][334]LightingResults: New page: Lighting Build
-[2017.10.23-22.58.35:289][334]LoadErrors: New page: Loading map: Maze.umap
-[2017.10.23-22.58.35:289][334]MapCheck: New page: Map Check
-[2017.10.23-22.58.35:289][334]LightingResults: New page: Lighting Build
-[2017.10.23-22.58.38:732][334]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-22.58.38:866][334]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-22.58.39:041][334]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 175.832ms to complete.
-[2017.10.23-22.58.39:044][334]LogFileHelpers: Loading map 'Maze' took 3.759
-[2017.10.23-22.58.41:317][579]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.41:317][579]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap.
-[2017.10.23-22.58.41:317][579]LoadErrors: Error: /Game/Game/Levels/HUBWorld : Can't find file for asset. /Game/StarterContent/Materials/M_Ground_Gravel
-[2017.10.23-22.58.41:327][579]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.41:327][579]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap.
-[2017.10.23-22.58.41:345][579]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.41:345][579]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.41:345][579]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.41:345][579]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.41:365][579]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Ground_Gravel'
-[2017.10.23-22.58.41:365][579]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Ground_Gravel.M_Ground_Gravel Referenced by Floor_16
-[2017.10.23-22.58.41:365][579]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ground_Gravel' while loading NULL.
-[2017.10.23-22.58.41:394][579]LogAIModule: Creating AISystem for world HUBWorld
-[2017.10.23-22.58.43:582][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-22.58.46:310][579]LogSavePackage: Save=2067.82ms
-[2017.10.23-22.58.46:310][579]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle63301E9A4561A0A68529DAAF9478B504.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-22.58.46:423][579]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-22.58.46:456][579]LogFileHelpers: Saving map 'FirePuzzle' took 3.053
-[2017.10.23-22.58.46:459][579]Cmd: MAP LOAD FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/HUBWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-22.58.46:459][579]LightingResults: New page: Lighting Build
-[2017.10.23-22.58.46:461][579]LoadErrors: New page: Loading map: HUBWorld.umap
-[2017.10.23-22.58.46:473][579]MapCheck: New page: Map Check
-[2017.10.23-22.58.46:474][579]LightingResults: New page: Lighting Build
-[2017.10.23-22.58.47:748][579]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-22.58.47:821][579]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-22.58.47:904][579]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.708ms to complete.
-[2017.10.23-22.58.47:904][579]LogFileHelpers: Loading map 'HUBWorld' took 1.448
-[2017.10.23-22.58.54:300][277]LogEditorViewport: Clicking on Actor (LMB): LevelShoot_C (LevelShoot4)
-[2017.10.23-22.59.00:259][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-22.59.02:335][624]LogSavePackage: Save=1987.30ms
-[2017.10.23-22.59.02:335][624]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle0AEE9C554B62262C46CC2AB0FC84F4EC.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-22.59.02:725][624]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-22.59.02:765][624]LogFileHelpers: Saving map 'FirePuzzle' took 2.689
-[2017.10.23-22.59.02:767][624]Cmd: MAP LOAD FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-22.59.02:767][624]LightingResults: New page: Lighting Build
-[2017.10.23-22.59.02:768][624]LoadErrors: New page: Loading map: FirePuzzle.umap
-[2017.10.23-22.59.02:772][624]MapCheck: New page: Map Check
-[2017.10.23-22.59.02:773][624]LightingResults: New page: Lighting Build
-[2017.10.23-22.59.02:835][624]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-22.59.02:940][624]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-22.59.03:064][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.187ms to complete.
-[2017.10.23-22.59.03:066][624]LogFileHelpers: Loading map 'FirePuzzle' took 0.300
-[2017.10.23-22.59.10:437][409]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (BigWall2)
-[2017.10.23-22.59.15:457][890]LogEditorViewport: Clicking on Actor (CTRL LMB): DoorBP_C (DoorBP)
-[2017.10.23-22.59.17:049][ 47]LogEditorViewport: Clicking on Actor (CTRL LMB): Totems_C (NatureTotem)
-[2017.10.23-22.59.19:087][255]LogEditorViewport: Clicking on Actor (CTRL LMB): Totems_C (StarterTotem)
-[2017.10.23-22.59.21:817][547]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (BigWall)
-[2017.10.23-22.59.24:118][780]LogEditorViewport: Clicking on Actor (CTRL LMB): LevelShoot_C (LevelShoot)
-[2017.10.23-22.59.24:792][846]LogEditorViewport: Clicking on Actor (CTRL LMB): LevelShoot_C (LevelShoot2)
-[2017.10.23-22.59.25:405][904]LogEditorViewport: Clicking on Actor (CTRL LMB): LevelShoot_C (LevelShoot3)
-[2017.10.23-22.59.27:535][116]LogEditorViewport: Clicking on Actor (CTRL LMB): LevelShoot_C (LevelShoot4)
-[2017.10.23-22.59.29:006][265]LogEditorViewport: Clicking on Actor (CTRL LMB): Totems_C (DesertTotem)
-[2017.10.23-22.59.31:723][528]LogEditorViewport: Clicking on Actor (CTRL LMB): Totems_C (VolcanoeTotem)
-[2017.10.23-22.59.35:576][881]LogEditorViewport: Clicking on Actor (CTRL LMB): DoorBP_C (DoorBP)
-[2017.10.23-22.59.37:794][110]Cmd: DELETE
-[2017.10.23-22.59.37:794][110]Cmd: ACTOR DELETE
-[2017.10.23-22.59.37:804][110]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.23-22.59.41:138][110]LogEditorActor: Deleted Actor: Totems_C
-[2017.10.23-22.59.43:431][110]LogEditorActor: Deleted Actor: Totems_C
-[2017.10.23-22.59.43:431][110]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.23-22.59.43:431][110]LogEditorActor: Deleted Actor: LevelShoot_C
-[2017.10.23-22.59.43:432][110]LogEditorActor: Deleted Actor: LevelShoot_C
-[2017.10.23-22.59.43:432][110]LogEditorActor: Deleted Actor: LevelShoot_C
-[2017.10.23-22.59.43:432][110]LogEditorActor: Deleted Actor: LevelShoot_C
-[2017.10.23-22.59.43:433][110]LogEditorActor: Deleted Actor: Totems_C
-[2017.10.23-22.59.43:433][110]LogEditorActor: Deleted Actor: Totems_C
-[2017.10.23-22.59.43:433][110]LogEditorActor: Deleted Actor: DoorBP_C
-[2017.10.23-22.59.43:443][110]LogEditorActor: Deleted 11 Actors (5.643 secs)
-[2017.10.23-23.00.02:809][253]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-23.00.06:539][558]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0037 seconds. Added 113 classes and 0 folders.
-[2017.10.23-23.00.07:535][558]LogSlate: Took 0.005785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.23-23.00.07:690][559]LogSlate: Took 0.004950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.10.23-23.00.32:648][ 46]BlueprintLog: New page: Compile FirePuzzle
-[2017.10.23-23.00.33:950][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-23.00.35:222][140]LogSavePackage: Save=1187.81ms
-[2017.10.23-23.00.35:222][140]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle8E80C2D2435F534734FE76A09A0B21D7.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-23.00.35:286][140]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-23.00.35:389][140]LogFileHelpers: Saving map 'FirePuzzle' took 1.812
-[2017.10.23-23.00.37:892][413]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.00.39:072][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.00.39:073][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.00.39:078][413]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:00:39 PM)
-[2017.10.23-23.00.39:087][413]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.00.39:125][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038170s)
-[2017.10.23-23.00.39:126][413]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.00.39:126][413]LogPlayLevel: PIE: World Init took: (0.001119s)
-[2017.10.23-23.00.39:127][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.040532s)
-[2017.10.23-23.00.39:157][413]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.00.39:179][413]LogInit: FAudioDevice initialized.
-[2017.10.23-23.00.39:224][413]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.00.39:239][413]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.00.39
-[2017.10.23-23.00.39:242][413]LogWorld: Bringing up level for play took: 0.005910
-[2017.10.23-23.00.39:332][413]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
-[2017.10.23-23.00.39:337][413]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle 0.547
-[2017.10.23-23.00.39:338][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.00.42:434][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.00.42:471][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.00.54:760][143]LogActorFactory: Actor Factory created Cube
-[2017.10.23-23.00.56:096][283]LogActorFactory: Actor Factory created Cube
-[2017.10.23-23.01.18:254][405]Cmd: TRANSACTION UNDO
-[2017.10.23-23.01.18:255][405]LogEditorTransaction: Undo Move Actors
-[2017.10.23-23.01.43:157][844]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2017.10.23-23.01.44:812][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.10.23-23.01.59:847][330]Cmd: TRANSACTION UNDO
-[2017.10.23-23.01.59:847][330]LogEditorTransaction: Undo Move Actors
-[2017.10.23-23.02.00:469][393]Cmd: TRANSACTION UNDO
-[2017.10.23-23.02.00:469][393]LogEditorTransaction: Undo Clicking on Actors
-[2017.10.23-23.02.01:027][442]Cmd: TRANSACTION UNDO
-[2017.10.23-23.02.01:027][442]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2017.10.23-23.02.01:523][487]Cmd: TRANSACTION UNDO
-[2017.10.23-23.02.01:523][487]LogEditorTransaction: Undo Scale Actors
-[2017.10.23-23.02.48:963][697]Cmd: EDIT COPY
-[2017.10.23-23.02.49:290][731]Cmd: EDIT PASTE
-[2017.10.23-23.02.57:272][581]Cmd: POLY SELECT ADJACENT WALLS
-[2017.10.23-23.03.16:906][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
-[2017.10.23-23.03.22:204][138]LogActorFactory: Actor Factory created Cube
-[2017.10.23-23.03.22:935][189]LogActorFactory: Actor Factory created Cube
-[2017.10.23-23.04.03:052][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-23.04.05:094][339]LogSavePackage: Save=1065.66ms
-[2017.10.23-23.04.05:094][339]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle7F66D9444EEC26B9506B5BBA0C7D8384.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-23.04.05:230][339]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-23.04.07:800][605]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.04.07:824][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.04.07:825][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.04.07:825][605]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:04:07 PM)
-[2017.10.23-23.04.07:830][605]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.04.07:849][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019566s)
-[2017.10.23-23.04.07:850][605]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.04.07:850][605]LogPlayLevel: PIE: World Init took: (0.001131s)
-[2017.10.23-23.04.07:851][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021074s)
-[2017.10.23-23.04.07:873][605]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.04.07:888][605]LogInit: FAudioDevice initialized.
-[2017.10.23-23.04.07:923][605]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.04.07:929][605]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.04.07
-[2017.10.23-23.04.07:930][605]LogWorld: Bringing up level for play took: 0.005422
-[2017.10.23-23.04.07:933][605]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.798
-[2017.10.23-23.04.07:933][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.04.16:277][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.04.16:331][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.05.38:663][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.10.23-23.06.13:290][797]LogRenderer: Reallocating scene render targets to support 1208x924 Format 10 NumSamples 1 (Frame:5687).
-[2017.10.23-23.09.34:348][485]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.09.40:643][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.09.40:823][911]LogSavePackage: Save=146.75ms
-[2017.10.23-23.09.40:823][911]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FDC2E6D344C7B51C18688DAA250938B3C.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.09.40:863][911]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.09.43:822][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.09.44:038][123]LogSavePackage: Save=102.05ms
-[2017.10.23-23.09.44:038][123]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F53833D8C4EBADE753FC1D38433DEE1F3.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.09.44:077][123]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.12.29:288][287]Cmd: TRANSACTION UNDO
-[2017.10.23-23.12.29:288][287]LogEditorTransaction: Undo Move Node
-[2017.10.23-23.12.59:495][624]LogSlate: Took 0.005612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.10.23-23.13.27:724][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.13.27:911][711]LogSavePackage: Save=142.47ms
-[2017.10.23-23.13.27:911][711]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F38990FC049602975FCB8D0AD985E5407.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.13.27:968][711]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.13.33:157][ 90]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.13.43:595][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.13.43:815][807]LogSavePackage: Save=176.78ms
-[2017.10.23-23.13.43:815][807]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F7BCCF63645427F59F95C5DBF94B23EA2.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.13.43:865][807]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.13.44:660][865]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.15.14:525][483]Cmd: TRANSACTION UNDO
-[2017.10.23-23.15.14:525][483]LogEditorTransaction: Undo Move Node
-[2017.10.23-23.15.18:089][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.15.18:342][759]LogSavePackage: Save=186.80ms
-[2017.10.23-23.15.18:342][759]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FEA89E32C474D55C5C1400586C1EFDA8E.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.15.18:395][759]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.15.18:759][787]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.17.48:374][468]Cmd: TRANSACTION UNDO
-[2017.10.23-23.17.48:374][468]LogEditorTransaction: Undo Create Pin Link
-[2017.10.23-23.18.09:938][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.18.10:130][ 59]LogSavePackage: Save=153.16ms
-[2017.10.23-23.18.10:130][ 59]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F3B4E560A43B2D1D5715E1A98F7FF00BF.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.18.10:178][ 59]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.18.10:518][ 84]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.18.11:651][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.18.11:883][143]LogSavePackage: Save=197.29ms
-[2017.10.23-23.18.11:883][143]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FA60C4AB34EAF0A37CA1FBEB74BDD37F0.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.18.11:921][143]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.18.16:442][502]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.18.16:468][502]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.18.16:468][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.18.16:468][502]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:18:16 PM)
-[2017.10.23-23.18.16:473][502]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.18.16:493][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019842s)
-[2017.10.23-23.18.16:494][502]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.18.16:494][502]LogPlayLevel: PIE: World Init took: (0.001126s)
-[2017.10.23-23.18.16:495][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021335s)
-[2017.10.23-23.18.16:517][502]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.18.16:531][502]LogInit: FAudioDevice initialized.
-[2017.10.23-23.18.16:568][502]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.18.16:576][502]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.18.16
-[2017.10.23-23.18.16:577][502]LogWorld: Bringing up level for play took: 0.006594
-[2017.10.23-23.18.16:580][502]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle 0.008
-[2017.10.23-23.18.16:581][502]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.18.22:121][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.18.22:173][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.18.30:977][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2017.10.23-23.18.32:225][732]Cmd: DELETE
-[2017.10.23-23.18.32:225][732]Cmd: ACTOR DELETE
-[2017.10.23-23.18.32:226][732]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.10.23-23.18.32:244][732]LogEditorActor: Deleted 1 Actors (0.018 secs)
-[2017.10.23-23.18.33:103][812]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform_F_C (MovingPlatform_F)
-[2017.10.23-23.19.14:453][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.19.14:453][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.19.14:453][821]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:19:14 PM)
-[2017.10.23-23.19.14:460][821]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.19.14:481][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020118s)
-[2017.10.23-23.19.14:481][821]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.19.14:482][821]LogPlayLevel: PIE: World Init took: (0.001143s)
-[2017.10.23-23.19.14:482][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021629s)
-[2017.10.23-23.19.14:507][821]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.19.14:520][821]LogInit: FAudioDevice initialized.
-[2017.10.23-23.19.14:554][821]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.19.14:557][821]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.19.14
-[2017.10.23-23.19.14:557][821]LogWorld: Bringing up level for play took: 0.002357
-[2017.10.23-23.19.14:559][821]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.006
-[2017.10.23-23.19.14:559][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.20.06:472][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.20.06:514][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.20.09:266][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-23.20.10:958][739]LogSavePackage: Save=1051.15ms
-[2017.10.23-23.20.10:959][739]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle8029B541484EC62A603781BBF82BADCE.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-23.20.11:057][739]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-23.20.36:529][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.20.36:775][683]LogSavePackage: Save=177.70ms
-[2017.10.23-23.20.36:775][683]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F45A916D940305A500190DDB385103796.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.20.36:825][683]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.20.37:257][714]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.20.45:613][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.20.45:815][306]LogSavePackage: Save=166.30ms
-[2017.10.23-23.20.45:815][306]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F8075C5744C2AE5185D8FD18BE204C768.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.20.45:852][306]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.20.46:219][332]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.20.46:246][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.20.46:247][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.20.46:247][332]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:20:46 PM)
-[2017.10.23-23.20.46:252][332]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.20.46:271][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019509s)
-[2017.10.23-23.20.46:272][332]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.20.46:273][332]LogPlayLevel: PIE: World Init took: (0.001158s)
-[2017.10.23-23.20.46:273][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021067s)
-[2017.10.23-23.20.46:310][332]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.20.46:347][332]LogInit: FAudioDevice initialized.
-[2017.10.23-23.20.46:394][332]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.20.46:400][332]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.20.46
-[2017.10.23-23.20.46:402][332]LogWorld: Bringing up level for play took: 0.005746
-[2017.10.23-23.20.46:404][332]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.149
-[2017.10.23-23.20.46:405][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.20.55:207][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.20.55:249][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.21.00:328][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-23.21.01:506][506]LogSavePackage: Save=1115.25ms
-[2017.10.23-23.21.01:506][506]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle1589DEF74B98C1EA322457A47F80AD68.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-23.21.01:596][506]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-23.21.02:230][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.21.02:439][546]LogSavePackage: Save=176.23ms
-[2017.10.23-23.21.02:440][546]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FD8318D7B4AE0E4BF6090189CD524C888.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.21.02:476][546]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.21.28:236][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
-[2017.10.23-23.21.47:817][100]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform_F_C (MovingPlatform_F)
-[2017.10.23-23.24.23:458][675]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.25.09:357][ 82]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_MovingPlatform_F_C - Previous (StructProperty) Current(BoolProperty) for package:  FObjectReader
-[2017.10.23-23.25.24:194][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.25.24:457][147]LogSavePackage: Save=220.74ms
-[2017.10.23-23.25.24:457][147]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FF2D42EE74541112E60503E9D2C1E4F81.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.25.24:506][147]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.25.24:589][152]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.25.25:216][165]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.29.48:554][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.29.48:927][145]LogSavePackage: Save=287.53ms
-[2017.10.23-23.29.48:927][145]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FAD257B8F450749FB15AE658343B3121C.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.29.48:993][145]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.29.49:429][174]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.29.54:769][515]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.29.54:798][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.29.54:798][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.29.54:798][515]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:29:54 PM)
-[2017.10.23-23.29.54:805][515]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.29.54:827][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022607s)
-[2017.10.23-23.29.54:829][515]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.29.54:829][515]LogPlayLevel: PIE: World Init took: (0.001465s)
-[2017.10.23-23.29.54:829][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.024598s)
-[2017.10.23-23.29.54:863][515]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.29.54:888][515]LogInit: FAudioDevice initialized.
-[2017.10.23-23.29.54:920][515]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.29.54:924][515]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.29.54
-[2017.10.23-23.29.54:924][515]LogWorld: Bringing up level for play took: 0.002518
-[2017.10.23-23.29.54:925][515]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle 0.427
-[2017.10.23-23.29.54:926][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.30.03:074][191]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.30.03:119][191]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.30.34:815][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.30.35:141][517]LogSavePackage: Save=277.69ms
-[2017.10.23-23.30.35:141][517]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FE5520AAE419CBFB4DCE619BAA28E1ED5.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.30.35:197][517]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.30.35:572][543]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.32.08:639][769]LogSavePackage: Save=1074.83ms
-[2017.10.23-23.32.08:639][769]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle_Auto1DD684293447F44F283CDBC9273A26FEC.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/FirePuzzle_Auto1.umap'
-[2017.10.23-23.32.08:664][769]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/FirePuzzle_Auto1.umap
-[2017.10.23-23.32.08:676][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/FirePuzzle' took 1.759
-[2017.10.23-23.32.08:676][769]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.759
-[2017.10.23-23.32.08:689][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Blueprints/MovingPlatform_F] ([1] browsable assets)...
-[2017.10.23-23.32.08:725][769]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Blueprints/MovingPlatform_F.MovingPlatform_F]
-[2017.10.23-23.32.08:725][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Blueprints/MovingPlatform_F]
-[2017.10.23-23.32.09:064][769]LogSavePackage: Save=299.87ms
-[2017.10.23-23.32.09:064][769]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F_Auto15EC760F647BA2764150DF39440287459.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/MovingPlatform_F_Auto1.uasset'
-[2017.10.23-23.32.09:089][769]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Blueprints/MovingPlatform_F_Auto1.uasset
-[2017.10.23-23.32.09:089][769]LogFileHelpers: Auto-saving content packages took 0.409
-[2017.10.23-23.36.43:644][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.36.43:976][143]LogSavePackage: Save=253.15ms
-[2017.10.23-23.36.43:976][143]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F608E5B5442405BB0B47F789B85C30637.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.36.44:026][143]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.36.44:382][167]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.36.45:670][221]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.36.45:699][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.36.45:699][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.36.45:699][221]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:36:45 PM)
-[2017.10.23-23.36.45:704][221]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.36.45:724][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019733s)
-[2017.10.23-23.36.45:725][221]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.36.45:725][221]LogPlayLevel: PIE: World Init took: (0.001162s)
-[2017.10.23-23.36.45:726][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021283s)
-[2017.10.23-23.36.45:749][221]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.36.45:763][221]LogInit: FAudioDevice initialized.
-[2017.10.23-23.36.45:802][221]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.36.45:808][221]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.36.45
-[2017.10.23-23.36.45:809][221]LogWorld: Bringing up level for play took: 0.006195
-[2017.10.23-23.36.45:813][221]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.652
-[2017.10.23-23.36.45:814][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.36.55:001][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.36.55:044][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.43.14:550][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.43.15:032][482]LogSavePackage: Save=400.50ms
-[2017.10.23-23.43.15:032][482]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F8653148C489D7623A4045F8DF7FEF832.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.43.15:097][482]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.43.16:256][558]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.43.17:921][635]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.43.17:955][635]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.43.17:955][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.43.17:955][635]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:43:17 PM)
-[2017.10.23-23.43.17:961][635]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.43.17:981][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019512s)
-[2017.10.23-23.43.17:982][635]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.43.17:982][635]LogPlayLevel: PIE: World Init took: (0.001300s)
-[2017.10.23-23.43.17:983][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021187s)
-[2017.10.23-23.43.18:007][635]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.43.18:021][635]LogInit: FAudioDevice initialized.
-[2017.10.23-23.43.18:053][635]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.43.18:056][635]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.43.18
-[2017.10.23-23.43.18:057][635]LogWorld: Bringing up level for play took: 0.002598
-[2017.10.23-23.43.18:058][635]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.377
-[2017.10.23-23.43.18:058][635]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.43.39:715][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.43.39:761][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.05:898][ 63]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.44.05:924][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.05:924][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.44.05:924][ 63]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:44:05 PM)
-[2017.10.23-23.44.05:930][ 63]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.44.05:950][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019663s)
-[2017.10.23-23.44.05:951][ 63]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.44.05:951][ 63]LogPlayLevel: PIE: World Init took: (0.001179s)
-[2017.10.23-23.44.05:951][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021225s)
-[2017.10.23-23.44.05:976][ 63]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.44.05:989][ 63]LogInit: FAudioDevice initialized.
-[2017.10.23-23.44.06:023][ 63]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.44.06:026][ 63]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.44.06
-[2017.10.23-23.44.06:026][ 63]LogWorld: Bringing up level for play took: 0.002437
-[2017.10.23-23.44.06:028][ 63]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.404
-[2017.10.23-23.44.06:028][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.12:089][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.12:133][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.15:149][725]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.23-23.44.15:172][725]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.15:173][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.44.15:173][725]PIE: New page: PIE session: FirePuzzle (Oct 23, 2017, 3:44:15 PM)
-[2017.10.23-23.44.15:177][725]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.44.15:193][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016687s)
-[2017.10.23-23.44.15:194][725]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.44.15:194][725]LogPlayLevel: PIE: World Init took: (0.000878s)
-[2017.10.23-23.44.15:195][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.017883s)
-[2017.10.23-23.44.15:217][725]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.44.15:232][725]LogInit: FAudioDevice initialized.
-[2017.10.23-23.44.15:265][725]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.44.15:267][725]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.44.15
-[2017.10.23-23.44.15:268][725]LogWorld: Bringing up level for play took: 0.002347
-[2017.10.23-23.44.15:269][725]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle 0.838
-[2017.10.23-23.44.15:269][725]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.18:682][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.18:726][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.22:250][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.22:250][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.44.22:250][215]PIE: New page: SIE session: FirePuzzle (Oct 23, 2017, 3:44:22 PM)
-[2017.10.23-23.44.22:255][215]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.44.22:271][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016367s)
-[2017.10.23-23.44.22:272][215]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.44.22:272][215]LogPlayLevel: PIE: World Init took: (0.001101s)
-[2017.10.23-23.44.22:273][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.017852s)
-[2017.10.23-23.44.22:295][215]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.44.22:310][215]LogInit: FAudioDevice initialized.
-[2017.10.23-23.44.22:344][215]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.44.22:350][215]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.44.22
-[2017.10.23-23.44.22:351][215]LogWorld: Bringing up level for play took: 0.006037
-[2017.10.23-23.44.22:356][215]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.075
-[2017.10.23-23.44.22:376][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.44:096][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.44.44:139][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.45.07:179][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.45.07:600][276]LogSavePackage: Save=371.25ms
-[2017.10.23-23.45.07:600][276]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_FCF8C77364074BAC1AA6CF7B912683BDA.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.45.07:657][276]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.45.08:445][332]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.46.40:095][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.46.40:430][594]LogSavePackage: Save=297.15ms
-[2017.10.23-23.46.40:430][594]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F37D3A2424A41E268C6CAF88455D6BC95.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.46.40:480][594]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.46.42:782][767]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.46.48:048][126]LogTemp: Repeating last play command: Simulate
-[2017.10.23-23.46.48:076][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.46.48:076][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.23-23.46.48:077][126]PIE: New page: SIE session: FirePuzzle (Oct 23, 2017, 3:46:48 PM)
-[2017.10.23-23.46.48:082][126]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.46.48:102][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019566s)
-[2017.10.23-23.46.48:103][126]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.46.48:103][126]LogPlayLevel: PIE: World Init took: (0.001067s)
-[2017.10.23-23.46.48:103][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.021005s)
-[2017.10.23-23.46.48:126][126]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.46.48:140][126]LogInit: FAudioDevice initialized.
-[2017.10.23-23.46.48:172][126]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.46.48:175][126]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.46.48
-[2017.10.23-23.46.48:176][126]LogWorld: Bringing up level for play took: 0.002500
-[2017.10.23-23.46.48:177][126]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.244
-[2017.10.23-23.46.48:186][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.46.59:780][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.46.59:828][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.47.39:993][634]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.47.40:899][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.47.41:278][659]LogSavePackage: Save=334.91ms
-[2017.10.23-23.47.41:278][659]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F3F41261F497F42B33190E89755A40BC0.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.47.41:335][659]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.47.42:658][742]LogEditorViewport: Clicking on Actor (LMB): MovingPlatform_F_C (MovingPlatform_F)
-[2017.10.23-23.48.09:469][426]LogTemp: Repeating last play command: Simulate
-[2017.10.23-23.48.09:498][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.48.09:499][426]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.10.23-23.48.09:507][426]LogPlayLevel: [PlayLevel] Compiling MovingPlatform_F before play...
-[2017.10.23-23.48.09:988][426]LogPlayLevel: PlayLevel: Blueprint regeneration took 489 ms (1 blueprints)
-[2017.10.23-23.48.09:988][426]PIE: New page: SIE session: FirePuzzle (Oct 23, 2017, 3:48:09 PM)
-[2017.10.23-23.48.09:994][426]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_FirePuzzle
-[2017.10.23-23.48.10:013][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019313s)
-[2017.10.23-23.48.10:014][426]LogAIModule: Creating AISystem for world FirePuzzle
-[2017.10.23-23.48.10:015][426]LogPlayLevel: PIE: World Init took: (0.001245s)
-[2017.10.23-23.48.10:015][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/FirePuzzle.FirePuzzle to /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle (0.020932s)
-[2017.10.23-23.48.10:039][426]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-23.48.10:052][426]LogInit: FAudioDevice initialized.
-[2017.10.23-23.48.10:086][426]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2017.10.23-23.48.10:089][426]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_FirePuzzle.FirePuzzle up for play (max tick rate 0) at 2017.10.23-19.48.10
-[2017.10.23-23.48.10:090][426]LogWorld: Bringing up level for play took: 0.002455
-[2017.10.23-23.48.10:091][426]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_FirePuzzle -0.324
-[2017.10.23-23.48.10:101][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.48.12:423][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.48.12:480][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle' with GeneratedClass '/Game/Game/Levels/FirePuzzle.FirePuzzle_C' with ClassGeneratedBy '/Game/Game/Levels/FirePuzzle.FirePuzzle:PersistentLevel.FirePuzzle'
-[2017.10.23-23.48.26:218][392]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.48.52:786][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.48.53:204][ 63]LogSavePackage: Save=343.19ms
-[2017.10.23-23.48.53:204][ 63]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F7482EF2A462852FA2FAAD9B202488FDB.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.48.53:256][ 63]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.48.53:569][ 80]BlueprintLog: New page: Compile MovingPlatform_F
-[2017.10.23-23.48.54:497][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.48.54:911][ 96]LogSavePackage: Save=374.03ms
-[2017.10.23-23.48.54:911][ 96]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F2C204CBC434E78F45737379AE45C43CA.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.48.54:950][ 96]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.49.30:939][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Blueprints/MovingPlatform_F" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset" SILENT=true
-[2017.10.23-23.49.31:282][522]LogSavePackage: Save=310.51ms
-[2017.10.23-23.49.31:283][522]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/MovingPlatform_F3FA3273443BBDD86E1E8B198D0A72AB6.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset'
-[2017.10.23-23.49.31:322][522]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Blueprints/MovingPlatform_F.uasset
-[2017.10.23-23.49.33:133][533]LogSavePackage: Save=1143.86ms
-[2017.10.23-23.49.33:134][533]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle_Auto209DCC72B46F6A2541C182592FCFFB9D9.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/FirePuzzle_Auto2.umap'
-[2017.10.23-23.49.33:161][533]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/Autosaves/Game/Game/Levels/FirePuzzle_Auto2.umap
-[2017.10.23-23.49.33:174][533]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Levels/FirePuzzle' took 1.630
-[2017.10.23-23.49.33:175][533]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.630
-[2017.10.23-23.49.36:537][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Levels/FirePuzzle" FILE="Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-23.49.37:819][711]LogSavePackage: Save=1197.37ms
-[2017.10.23-23.49.37:819][711]LogSavePackage: Moving 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Saved/FirePuzzle640B325E4B78ABE288C8489CC93C167D.tmp' to 'Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap'
-[2017.10.23-23.49.37:890][711]LogSavePackage: Display: Finished SavePackage Z:/IGMProfile/Desktop/PuzzleGame/GDD2Platformer/Content/Game/Levels/FirePuzzle.umap
-[2017.10.23-23.49.38:017][711]LogFileHelpers: Saving map 'FirePuzzle' took 1.854
+[2017.10.24-00.37.17:944][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.24-00.37.17:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.24-00.37.17:956][  0]LogInit: Computer: DESKTOP-NBIP4NP
+[2017.10.24-00.37.17:956][  0]LogInit: User: owner
+[2017.10.24-00.37.17:956][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.24-00.37.17:956][  0]LogInit: High frequency timer resolution =2.533211 MHz
+[2017.10.24-00.37.17:957][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.10.24-00.37.17:957][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.24-00.37.17:957][  0]LogMemory: Process Physical Memory: 278.16 MB used, 278.16 MB peak
+[2017.10.24-00.37.17:957][  0]LogMemory: Process Virtual Memory: 274.32 MB used, 274.32 MB peak
+[2017.10.24-00.37.17:957][  0]LogMemory: Physical Memory: 5182.09 MB used,  11151.00 MB free, 16333.09 MB total
+[2017.10.24-00.37.17:957][  0]LogMemory: Virtual Memory: 669.05 MB used,  11151.00 MB free, 134217728.00 MB total
+[2017.10.24-00.37.18:060][  0]LogInit: Using OS detected language (en-US).
+[2017.10.24-00.37.18:060][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.24-00.37.18:064][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.24-00.37.18:781][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.24-00.37.18:820][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2017.10.24-00.37.18:820][  0]LogD3D11RHI:       4061/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.24-00.37.18:821][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.24-00.37.18:821][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.24-00.37.18:821][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.24-00.37.18:827][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.24-00.37.18:827][  0]LogD3D11RHI:     GPU DeviceId: 0x1617 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.24-00.37.18:827][  0]LogWindows: EnumDisplayDevices:
+[2017.10.24-00.37.18:827][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M' (P:1 D:1)
+[2017.10.24-00.37.18:827][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2017.10.24-00.37.18:828][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2017.10.24-00.37.18:828][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2017.10.24-00.37.18:828][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.24-00.37.18:828][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2017.10.24-00.37.18:828][  0]LogD3D11RHI:   Driver Version: 387.92 (internal:23.21.13.8792, unified:387.92)
+[2017.10.24-00.37.18:828][  0]LogD3D11RHI:      Driver Date: 10-6-2017
+[2017.10.24-00.37.18:828][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.24-00.37.18:851][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.24-00.37.18:914][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.24-00.37.18:957][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Intermediate/Shaders/WorkingDirectory/1784/).
+[2017.10.24-00.37.18:957][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/ABCF2C59434749D5FD654480FC36B7AA/'.
+[2017.10.24-00.37.18:957][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.24-00.37.19:802][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.24-00.37.19:843][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.24-00.37.19:884][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.24-00.37.19:925][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.24-00.37.19:966][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.24-00.37.20:007][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.24-00.37.20:048][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.24-00.37.20:089][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.24-00.37.20:123][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.24-00.37.20:163][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.24-00.37.20:203][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.24-00.37.20:242][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.24-00.37.20:282][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.24-00.37.20:323][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.24-00.37.20:362][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.24-00.37.20:442][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.24-00.37.20:442][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.24-00.37.20:472][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.24-00.37.20:547][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.24-00.37.20:569][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.24-00.37.20:609][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.24-00.37.20:648][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.24-00.37.20:688][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.24-00.37.20:727][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.24-00.37.20:727][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.24-00.37.21:061][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.24-00.37.21:154][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.24-00.37.21:154][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.24-00.37.21:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.24-00.37.21:154][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.24-00.37.21:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.24-00.37.21:154][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.24-00.37.21:173][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.24-00.37.21:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.24-00.37.21:196][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.24-00.37.21:196][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.24-00.37.21:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.24-00.37.21:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.24-00.37.21:471][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.10.24-00.37.21:576][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.24-00.37.21:881][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.24-00.37.21:910][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.24-00.37.21:910][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.24-00.37.21:910][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.24-00.37.21:910][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.24-00.37.21:910][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.24-00.37.21:934][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.24-00.37.22:319][  0]LogNetVersion: GDD2Platformer , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 19982841)
+[2017.10.24-00.37.22:503][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.046528 seconds
+[2017.10.24-00.37.22:508][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.24-00.37.22:508][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.24-00.37.22:508][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.24-00.37.22:545][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.24-00.37.24:748][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.24-00.37.24:780][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.24-00.37.24:781][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1
+[2017.10.24-00.37.24:781][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2017.10.24-00.37.24:781][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2017.10.24-00.37.25:279][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.24-00.37.25:605][  0]SourceControl: Source control is disabled
+[2017.10.24-00.37.25:605][  0]SourceControl: Source control is disabled
+[2017.10.24-00.37.25:643][  0]SourceControl: Source control is disabled
+[2017.10.24-00.37.25:680][  0]SourceControl: Source control is disabled
+[2017.10.24-00.37.26:131][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.24-00.37.26:323][  0]LogOcInput: OculusInput pre-init called
+[2017.10.24-00.37.26:527][  0]LogEngine: Initializing Engine...
+[2017.10.24-00.37.26:528][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.24-00.37.26:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.24-00.37.26:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.24-00.37.26:835][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.24-00.37.26:842][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.24-00.37.26:963][  0]LogInit: FAudioDevice initialized.
+[2017.10.24-00.37.27:052][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.24-00.37.27:065][  0]LogInit: Texture streaming: Enabled
+[2017.10.24-00.37.27:138][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.24-00.37.27:301][  0]LogInit: Transaction tracking system initialized
+[2017.10.24-00.37.27:528][  0]BlueprintLog: New page: Editor Load
+[2017.10.24-00.37.28:172][  0]LocalizationService: Localization service is disabled
+[2017.10.24-00.37.28:680][  0]LogConsoleResponse: Display: 
+[2017.10.24-00.37.28:832][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.24-00.37.28:833][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.24-00.37.28:833][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.24-00.37.29:578][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/' took 0.01s
+[2017.10.24-00.37.29:612][  0]SourceControl: Source control is disabled
+[2017.10.24-00.37.29:612][  0]Cmd: MAP LOAD FILE="../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Game/Levels/HUBWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.24-00.37.29:613][  0]LightingResults: New page: Lighting Build
+[2017.10.24-00.37.29:642][  0]MapCheck: New page: Map Check
+[2017.10.24-00.37.29:642][  0]LightingResults: New page: Lighting Build
+[2017.10.24-00.37.30:396][  0]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
+[2017.10.24-00.37.30:397][  0]LogMaterial: Warning: Failed to compile Material /Game/Game/Materials/M_Water_Lake.M_Water_Lake for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.24-00.37.30:397][  0]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.24-00.37.30:428][  0]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2017.10.24-00.37.30:428][  0]LogMaterial: Warning: Failed to compile Material /Game/Game/Materials/M_Metal_Rust.M_Metal_Rust for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.24-00.37.30:428][  0]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.24-00.37.30:501][  0]LogMaterial: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2017.10.24-00.37.30:502][  0]LogMaterial: Warning: Failed to compile Material /Game/Game/Materials/M_CobbleStone_Smooth.M_CobbleStone_Smooth for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.24-00.37.30:502][  0]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.10.24-00.37.30:502][  0]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.24-00.37.30:520][  0]LogAIModule: Creating AISystem for world HUBWorld
+[2017.10.24-00.37.30:543][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.24-00.37.30:571][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.24-00.37.30:633][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.551ms to complete.
+[2017.10.24-00.37.30:633][  0]LogFileHelpers: Loading map 'HUBWorld' took 1.021
+[2017.10.24-00.37.30:694][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.37.30:770][  0]LogCollectionManager: Loaded 0 collections in 0.001015 seconds
+[2017.10.24-00.37.30:839][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Saved/Collections/' took 0.01s
+[2017.10.24-00.37.30:839][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Developers/owner/Collections/' took 0.01s
+[2017.10.24-00.37.30:839][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Collections/' took 0.01s
+[2017.10.24-00.37.30:839][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.24-00.37.30:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2386 classes and 500 folders.
+[2017.10.24-00.37.30:895][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.24-00.37.30:947][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.24-00.37.30:980][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.24-00.37.31:050][  0]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.24-00.37.31:052][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.24-00.37.31:058][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.24-00.37.31:176][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2017.10.24-00.37.31:371][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.24-00.37.31:371][  0]LogLoad: (Engine Initialization) Total time: 14.88 seconds
+[2017.10.24-00.37.31:371][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.24-00.37.31:371][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.24-00.37.31:371][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.24-00.37.31:421][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.24-00.37.31:441][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.24-00.37.31:451][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/' took 0.05s
+[2017.10.24-00.37.31:459][  1]LogAssetRegistry: Asset discovery search completed in 10.0097 seconds
+[2017.10.24-00.37.31:461][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.24-00.37.31:462][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.10.24-00.37.41:744][611]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.24-00.37.42:067][611]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.10.24-00.37.42:675][611]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.24-00.37.42:734][611]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.24-00.37.43:262][639]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.24-00.37.52:582][ 52]LogRenderer: Reallocating scene render targets to support 1528x744 Format 10 NumSamples 1 (Frame:251).
+[2017.10.24-00.38.24:054][701]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:054][701]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:054][701]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:054][701]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:070][702]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:070][702]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:070][702]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:070][702]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:087][703]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:087][703]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:087][703]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:087][703]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:103][704]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:103][704]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:104][704]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:104][704]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:120][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:120][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:120][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:120][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:137][706]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:137][706]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:137][706]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:137][706]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:153][707]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:153][707]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:153][707]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:153][707]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:170][708]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:170][708]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:170][708]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:170][708]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:186][709]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:187][709]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:187][709]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:187][709]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:203][710]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:203][710]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:203][710]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:203][710]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:221][711]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:221][711]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:221][711]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:221][711]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:237][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:237][712]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:237][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:237][712]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:253][713]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:253][713]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:254][713]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:254][713]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:270][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:270][714]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:270][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:270][714]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:287][715]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:287][715]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:287][715]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:287][715]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:303][716]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:303][716]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:303][716]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:303][716]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:320][717]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:320][717]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:320][717]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:320][717]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:337][718]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:337][718]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:337][718]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:337][718]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:353][719]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:353][719]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:354][719]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:354][719]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:370][720]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:370][720]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:370][720]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:370][720]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:387][721]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:387][721]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:387][721]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:387][721]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:403][722]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:403][722]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:403][722]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:403][722]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:420][723]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:420][723]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:420][723]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:420][723]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:436][724]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:437][724]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:437][724]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:437][724]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:453][725]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:453][725]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:453][725]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:453][725]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:470][726]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:470][726]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:470][726]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:470][726]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:486][727]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:486][727]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:487][727]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:487][727]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:503][728]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:503][728]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:503][728]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:503][728]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:520][729]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:520][729]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:520][729]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:520][729]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:537][730]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:537][730]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:537][730]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:537][730]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:554][731]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:554][731]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:554][731]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:554][731]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:571][732]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:571][732]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:571][732]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:571][732]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:587][733]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:587][733]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:587][733]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:587][733]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:603][734]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:603][734]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:604][734]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:604][734]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:620][735]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:620][735]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:620][735]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:621][735]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:637][736]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:637][736]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:637][736]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:637][736]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:653][737]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:653][737]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:653][737]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:653][737]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:670][738]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:670][738]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:670][738]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:670][738]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:687][739]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:687][739]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:687][739]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:687][739]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:703][740]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:703][740]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:703][740]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:703][740]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:720][741]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:720][741]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:720][741]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:720][741]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:736][742]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:736][742]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:737][742]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:737][742]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:753][743]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:753][743]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:753][743]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:753][743]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:770][744]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:770][744]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:770][744]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:770][744]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:786][745]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:786][745]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:787][745]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:787][745]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:803][746]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:803][746]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:803][746]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:803][746]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:820][747]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:821][747]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:821][747]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:821][747]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:837][748]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:837][748]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:837][748]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:837][748]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:853][749]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:854][749]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:854][749]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:854][749]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:870][750]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:870][750]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:870][750]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:870][750]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:887][751]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:887][751]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.38.24:887][751]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.10.24-00.38.24:887][751]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube.1M_Cube] ScaledElem[0] invalid
+[2017.10.24-00.39.21:623][ 83]BlueprintLog: New page: Compile BigRotatingPlatform
+[2017.10.24-00.39.37:133][928]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.24-00.39.37:182][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.39.37:182][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.24-00.39.37:183][928]PIE: New page: PIE session: HUBWorld (Oct 23, 2017, 4:39:37 PM)
+[2017.10.24-00.39.37:183][928]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_HUBWorld
+[2017.10.24-00.39.37:206][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022240s)
+[2017.10.24-00.39.37:207][928]LogAIModule: Creating AISystem for world HUBWorld
+[2017.10.24-00.39.37:207][928]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2017.10.24-00.39.37:207][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/HUBWorld.HUBWorld to /Game/Game/Levels/UEDPIE_0_HUBWorld.HUBWorld (0.023819s)
+[2017.10.24-00.39.37:230][928]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.24-00.39.37:241][928]LogInit: FAudioDevice initialized.
+[2017.10.24-00.39.37:283][928]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.24-00.39.37:288][928]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_HUBWorld.HUBWorld up for play (max tick rate 60) at 2017.10.23-20.39.37
+[2017.10.24-00.39.37:289][928]LogWorld: Bringing up level for play took: 0.004102
+[2017.10.24-00.39.37:321][928]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.24-00.39.37:322][928]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_HUBWorld 0.296
+[2017.10.24-00.39.37:322][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.39.46:081][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.39.46:131][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.40.07:019][526]BlueprintLog: New page: Compile BigRotatingPlatform
+[2017.10.24-00.40.11:878][791]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.24-00.40.11:900][791]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.40.11:900][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.24-00.40.11:901][791]PIE: New page: PIE session: HUBWorld (Oct 23, 2017, 4:40:11 PM)
+[2017.10.24-00.40.11:901][791]LogPlayLevel: Creating play world package: /Game/Game/Levels/UEDPIE_0_HUBWorld
+[2017.10.24-00.40.11:925][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023559s)
+[2017.10.24-00.40.11:926][791]LogAIModule: Creating AISystem for world HUBWorld
+[2017.10.24-00.40.11:926][791]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2017.10.24-00.40.11:927][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Levels/HUBWorld.HUBWorld to /Game/Game/Levels/UEDPIE_0_HUBWorld.HUBWorld (0.025071s)
+[2017.10.24-00.40.11:948][791]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.24-00.40.11:959][791]LogInit: FAudioDevice initialized.
+[2017.10.24-00.40.11:992][791]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.24-00.40.11:997][791]LogWorld: Bringing World /Game/Game/Levels/UEDPIE_0_HUBWorld.HUBWorld up for play (max tick rate 60) at 2017.10.23-20.40.11
+[2017.10.24-00.40.11:997][791]LogWorld: Bringing up level for play took: 0.003933
+[2017.10.24-00.40.11:998][791]PIE: Play in editor start time for /Game/Game/Levels/UEDPIE_0_HUBWorld 0.972
+[2017.10.24-00.40.11:998][791]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.40.28:537][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.40.28:590][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld' with GeneratedClass '/Game/Game/Levels/HUBWorld.HUBWorld_C' with ClassGeneratedBy '/Game/Game/Levels/HUBWorld.HUBWorld:PersistentLevel.HUBWorld'
+[2017.10.24-00.40.35:793][188]LogSavePackage: Save=244.46ms
+[2017.10.24-00.40.35:793][188]LogSavePackage: Moving '../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Saved/HUBWorld9D00F86B4ED22EAC92FE7CA869124F7B.tmp' to '../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Game/Levels/HUBWorld.umap'
+[2017.10.24-00.40.35:799][188]LogSavePackage: Display: Finished SavePackage ../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Game/Levels/HUBWorld.umap
+[2017.10.24-00.40.35:832][188]LogFileHelpers: Saving map 'HUBWorld' took 0.382
+[2017.10.24-00.40.35:895][188]LogSavePackage: Save=33.29ms
+[2017.10.24-00.40.35:895][188]LogSavePackage: Moving '../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Saved/BigRotatingPlatformA826FA3D49470F5DCE26C39FD527BC9B.tmp' to '../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Game/Blueprints/RotatingStairs/BigRotatingPlatform.uasset'
+[2017.10.24-00.40.35:898][188]LogSavePackage: Display: Finished SavePackage ../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Game/Blueprints/RotatingStairs/BigRotatingPlatform.uasset
+[2017.10.24-00.40.37:092][250]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.24-00.40.37:269][251]Cmd: QUIT_EDITOR
+[2017.10.24-00.40.37:956][251]LogExit: Preparing to exit.
+[2017.10.24-00.40.38:910][251]LogDirectoryWatcher: A directory notification for 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/' was aborted.
+[2017.10.24-00.40.38:944][251]LogExit: Editor shut down
+[2017.10.24-00.40.38:946][251]LogExit: Transaction tracking system shut down
+[2017.10.24-00.40.39:151][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.24-00.40.39:151][251]LogDirectoryWatcher: A directory notification for '../../../../../../SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/' was aborted.
+[2017.10.24-00.40.39:151][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.24-00.40.39:151][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.24-00.40.39:152][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.24-00.40.39:232][251]LogExit: Object subsystem successfully closed.
+[2017.10.24-00.40.39:247][251]LogD3D11RHI: Shutdown
+[2017.10.24-00.40.39:247][251]LogD3D11RHI: CleanupD3DDevice
+[2017.10.24-00.40.39:339][251]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.24-00.40.39:347][251]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.10.24-00.40.39:347][251]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.10.24-00.40.39:347][251]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.10.24-00.40.39:347][251]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.24-00.40.39:347][251]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.24-00.40.39:347][251]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.24-00.40.39:347][251]LogDirectoryWatcher: A directory notification for 'D:/Programs/UDK/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.24-00.40.39:348][251]LogDirectoryWatcher: A directory notification for 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Collections/' was aborted.
+[2017.10.24-00.40.39:348][251]LogDirectoryWatcher: A directory notification for 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Content/Developers/owner/Collections/' was aborted.
+[2017.10.24-00.40.39:348][251]LogDirectoryWatcher: A directory notification for 'D:/SourceTree/TomMakes/OrbChaser/GDD2Platformer/Saved/Collections/' was aborted.
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.24-00.40.39:348][251]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.24-00.40.39:349][251]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.24-00.40.39:512][251]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.24-00.40.39:513][251]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.24-00.40.39:579][251]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.24-00.40.39:586][251]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.24-00.40.39:587][251]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.24-00.40.39:721][251]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.24-00.40.39:722][251]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.24-00.40.39:723][251]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.24-00.40.39:824][251]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.24-00.40.39:925][251]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.24-00.40.39:925][251]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.24-00.40.39:925][251]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.24-00.40.39:925][251]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.24-00.40.39:925][251]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.24-00.40.39:925][251]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.24-00.40.39:926][251]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.24-00.40.39:928][251]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.24-00.40.39:929][251]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.24-00.40.39:938][251]LogDerivedDataCache: Shutdown
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.24-00.40.39:938][251]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.24-00.40.39:939][251]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.24-00.40.39:939][251]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.24-00.40.39:939][251]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.24-00.40.39:939][251]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B431E5052-4DD5-472F-A9DE-EF9D664A2AE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=95a0683a486597ff75e65ba5635b0fb6%7C4d05623111ed472db954dbd404fb9276%7Cc76979cc-1240-438a-a8aa-338a9df81e78&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.24-00.40.39:966][251]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.24-00.40.39:967][251]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.24-00.40.39:967][251]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.24-00.40.39:967][251]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.24-00.40.39:967][251]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.24-00.40.39:967][251]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.24-00.40.39:967][251]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.24-00.40.39:967][251]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.24-00.40.39:968][251]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.24-00.40.39:970][251]LogExit: Exiting.
+[2017.10.24-00.40.39:987][251]Log file closed, 10/23/17 20:40:39
